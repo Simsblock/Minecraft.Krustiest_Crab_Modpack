@@ -7,17 +7,17 @@ The Sources, Authors and Licenses are listed bellow aswell.
 # Mods
 ## framework-neoforge-1.21.1-0.13.11.jar
 
-**Source:** https://github.com/MrCrayfish/Framework
-**Download-Source:** https://www.curseforge.com/minecraft/mc-mods/framework/files/7530361
-**Author:** https://github.com/MrCrayfish 
-**License:** LGPL-2.1 license
+**Source:** https://github.com/MrCrayfish/Framework \
+**Download-Source:** https://www.curseforge.com/minecraft/mc-mods/framework/files/7530361 \
+**Author:** https://github.com/MrCrayfish \
+**License:** LGPL-2.1 license 
 
 ## backpacked-neoforge-1.21.1-3.0.5.jar
 
-**Source:** https://github.com/MrCrayfish/Backpacked 
-**Download-Source:** https://www.curseforge.com/minecraft/mc-mods/backpacked/files/7866688
-**Author:** https://github.com/MrCrayfish 
-**License:** LGPL-2.1 license
+**Source:** https://github.com/MrCrayfish/Backpacked \
+**Download-Source:** https://www.curseforge.com/minecraft/mc-mods/backpacked/files/7866688 \
+**Author:** https://github.com/MrCrayfish \
+**License:** LGPL-2.1 license 
 
 # Licenses
 ## LGPL-2.1 license
