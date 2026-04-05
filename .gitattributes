@@ -1,0 +1,9 @@
+* text=auto
+
+*.json text eol=lf
+
+*.png binary
+*.png filter=lfs diff=lfs merge=lfs -text
+
+*.jar binary
+*.jar filter=lfs diff=lfs merge=lfs -text

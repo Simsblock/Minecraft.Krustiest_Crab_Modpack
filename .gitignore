@@ -1,0 +1,6 @@
+*.mrpack
+
+/run/
+/bin/
+/out/
+.gradle/

@@ -1,0 +1,55 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:name_tag"
+		},
+		"title": "Age Lock         ",
+		"description": [
+			"",
+			{
+				"text": "Adds the ability to lock a baby mobs' age using a name tag. ",
+				"color": "gold"
+			},
+			{
+				"text": "Age lock",
+				"color": "yellow"
+			},
+			{
+				"text": ", ",
+				"color": "gold"
+			},
+			{
+				"text": "age lock",
+				"color": "yellow"
+			},
+			{
+				"text": ", ",
+				"color": "gold"
+			},
+			{
+				"text": "Age Lock",
+				"color": "yellow"
+			},
+			{
+				"text": ", and ",
+				"color": "gold"
+			},
+			{
+				"text": "age_lock",
+				"color": "yellow"
+			},
+			{
+				"text": " are all acceptable names.",
+				"color": "gold"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
