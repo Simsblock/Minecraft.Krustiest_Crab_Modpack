@@ -1,7 +1,6 @@
 ServerEvents.tags('item', event => {
     event.add('c:dough', ['farmersdelight:wheat_dough', 'create:dough'])
     event.add('c:crabs', [
-        'crabbersdelight:crab_claw', 
         'hybrid-aquatic:coconut_crab_claw',
         'hybrid-aquatic:dungeness_crab_claw',
         'hybrid-aquatic:fiddler_crab_claw',
@@ -36,7 +35,7 @@ ServerEvents.tags('item', event => {
         'youkaisfeasts:stockpot',
     ])
     event.add('c:trident_materials', [
-        'hybrid-aquatic:shark_tooth',
+        //'hybrid-aquatic:shark_tooth',
         'upgrade_aquatic:thrasher_tooth',
         'create_aquatic_ambitions:spiky_shell',
     ])

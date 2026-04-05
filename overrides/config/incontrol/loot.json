@@ -1,0 +1,13 @@
+[
+  {
+    "mob": "hybrid-aquatic:karkinos",
+    "removeall": true,
+    "item": "hybrid-aquatic:karkinos_claw"
+  },
+  {
+    "mob": "hybrid-aquatic:karkinos",
+    "item": "minecraft:crab_meat",
+    "mincount": 8,
+    "maxcount": 16
+  }
+]

@@ -426,21 +426,6 @@
       "fileSize": 227729
     },
     {
-      "path": "mods/swashbucklers! 2.6.6C 1.21.1 neoforge.jar",
-      "hashes": {
-        "sha1": "cf0f8176110a2ec14ed552ecab8890f78d4e6889",
-        "sha512": "62410d930b8f62bb0bb582c88fd9fbf0381813925340e83ebd8b34af25439cbe505a514c55fd1dbd184a3e839a913eba395f8f8374f836de6403e5dddfaf9e7a"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/g6bnDQis/versions/Htp11AjW/swashbucklers%21%202.6.6C%201.21.1%20neoforge.jar"
-      ],
-      "fileSize": 1557167
-    },
-    {
       "path": "mods/letmedespawn-1.21.x-neoforge-1.5.0.jar",
       "hashes": {
         "sha1": "576fe2edaa96e7e71015287457bd52f87646d968",
@@ -741,21 +726,6 @@
       "fileSize": 352598
     },
     {
-      "path": "mods/celestria-neoforge-2.0.0.jar",
-      "hashes": {
-        "sha1": "c3e129c8549ef473d8edbfabc7a5fe2ddc98abd0",
-        "sha512": "ab48f15c92d13562ebbc4dc823dfa2d6f92441ee9323cfb4921e47435f2eb0a80a7ffabddb8e847c614a98bbee2852dac73fb609b4280c043cd68888633f82dd"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/GoCfVRkX/versions/dF6C5XqT/celestria-neoforge-2.0.0.jar"
-      ],
-      "fileSize": 258207
-    },
-    {
       "path": "mods/dragonlib-neoforge-1.21.1-beta-3.0.24.jar",
       "hashes": {
         "sha1": "eacbdeabe5271b46aacb4c15d9a44915ab953831",
@@ -799,21 +769,6 @@
         "https://cdn.modrinth.com/data/P1Kv5EAO/versions/4iO8Tbfj/Necronomicon-NeoForge-1.6.0%2B1.21.jar"
       ],
       "fileSize": 29865
-    },
-    {
-      "path": "mods/handcrafted-neoforge-1.21.1-4.0.3.jar",
-      "hashes": {
-        "sha512": "4ff5fb2aa9582b886d03f647fe9b8c12a828d29a1787e9c9b463be18192ea798e6a4ac83479623042791bce0bacbf6e3e2c2e9ef086640aeeb6970d3404e7ee4",
-        "sha1": "8ecd27f1d66f9b742cfae3c8ffa773765f574b52"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/pJmCFF0p/versions/JfqnpP2Z/handcrafted-neoforge-1.21.1-4.0.3.jar"
-      ],
-      "fileSize": 7132842
     },
     {
       "path": "mods/bellsandwhistles-0.4.7-1.21.1.jar",
@@ -1836,21 +1791,6 @@
       "fileSize": 218920
     },
     {
-      "path": "mods/Create Encased-1.21.1-1.8-ht2.jar",
-      "hashes": {
-        "sha512": "5a390e43fd0ef0cedf277ca985199bcd7dd3f83ce3a132774436808191ef24611541c3349ddbea7c82a5a3cde11ed87c72173a46498c7555947436b51894f24e",
-        "sha1": "957a7ee1741c7a8536bedd401a923d7fb73a7092"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/hSSqdyU1/versions/sjCAxK2s/Create%20Encased-1.21.1-1.8-ht2.jar"
-      ],
-      "fileSize": 2410332
-    },
-    {
       "path": "mods/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
       "hashes": {
         "sha512": "18b461298d3df1215fa3b4d2c0cb2ef1c7ed76701d8a0bb140277b21923e31abd939f0fd9b400c5bd676d739f1cda31c43b4dc753f9187251542223f3424d336",
@@ -2059,21 +1999,6 @@
         "https://cdn.modrinth.com/data/z9Ve58Ih/versions/P00i2hJn/YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar"
       ],
       "fileSize": 795839
-    },
-    {
-      "path": "mods/createornithopterglider-1.0.3-1.21.1.jar",
-      "hashes": {
-        "sha1": "d28f2eeeb3399606d89f0c45409497f770dd5be5",
-        "sha512": "0495f8602489fd2681b2e79dab0040e24ba97172845d27802979d2fa94f7d83e34e1049f7d12b0b749048fd97c9d7bea7d30eaf02cb8502af6ccb4295b57a740"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/A30Sq5Gt/versions/6XWxygAb/createornithopterglider-1.0.3-1.21.1.jar"
-      ],
-      "fileSize": 724735
     },
     {
       "path": "mods/attributesetter-1.11-neoforge.jar",
@@ -2391,21 +2316,6 @@
       "fileSize": 153208
     },
     {
-      "path": "mods/crabbersdelight-1.21.1-1.2.5.jar",
-      "hashes": {
-        "sha1": "c7df3ab4285a59c2d5bc8be047d991ffdddd7959",
-        "sha512": "59a3e12f299d57f7df6130f73a466e18d3e4990e6e29601f49797aaba9323f0cb82bb847bab012af13eac176a2cd9e2ab331c51d758481895691245ab11612c9"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/gBGdVBJy/versions/CwxH5yCK/crabbersdelight-1.21.1-1.2.5.jar"
-      ],
-      "fileSize": 632829
-    },
-    {
       "path": "mods/DustyDecorations_1.21.1Neoforge_V1.12.jar",
       "hashes": {
         "sha1": "b89b16200f1f8b8f8c7ccc6ddff4f33600c3b3d8",
@@ -2526,21 +2436,6 @@
       "fileSize": 1184499
     },
     {
-      "path": "mods/bonded-neoforge-1.21.1-1.2.2+1.21.1.jar",
-      "hashes": {
-        "sha512": "57bd516070420a4573c46d6c0ccbf9a781ac2408416fb1c4d12c11a20931a00ea5b172f7b66aaf916a7716a26643867d73e726958b70c80f888a741d6360b6b1",
-        "sha1": "fd3d91ecd5a2c099db732705b2e33b5846c9c483"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/rTXmXcev/versions/mur6ZcEi/bonded-neoforge-1.21.1-1.2.2%2B1.21.1.jar"
-      ],
-      "fileSize": 183600
-    },
-    {
       "path": "mods/Item-Obliterator-NeoForge-MC1.21.1-2.3.0.jar",
       "hashes": {
         "sha1": "0cb46a873376d7ded387e175bf30181fcc079c15",
@@ -2554,21 +2449,6 @@
         "https://cdn.modrinth.com/data/3ESR84kR/versions/jy3ApWAm/Item-Obliterator-NeoForge-MC1.21.1-2.3.0.jar"
       ],
       "fileSize": 24037
-    },
-    {
-      "path": "mods/elytratrims-neoforge-3.9.3+1.21.1.jar",
-      "hashes": {
-        "sha512": "d50325821bf3fd5f54ea811b7beb0264a6fcf0f91c40c0f01114a4c08f928b2a761f52a3d8df6197fb78a0821517745d0342d838af4b6b0611fa82830b9521f2",
-        "sha1": "933cf597d7e5809cfd0732bdf8260ea064abff60"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/XpzGz7KD/versions/7mqA6CJO/elytratrims-neoforge-3.9.3%2B1.21.1.jar"
-      ],
-      "fileSize": 691559
     },
     {
       "path": "mods/beautify-neoforge-1.21.1-2.0.2.jar",
