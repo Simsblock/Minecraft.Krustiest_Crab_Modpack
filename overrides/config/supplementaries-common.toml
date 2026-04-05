@@ -58,8 +58,8 @@
 		fall_height_required = 5
 
 	[redstone.enderman_head]
-		enabled = true
-		drop_head = true
+		enabled = false
+		drop_head = false
 		#Time to increase 1 power level when being looked at
 		# Default: 15
 		# Range: 0 ~ 10000
@@ -119,7 +119,7 @@
 		replace_in_loot_tables = "NONE"
 
 	[functional.jar]
-		enabled = true
+		enabled = false
 		#Jar liquid capacity: leave at 12 for pixel accuracy
 		# Default: 12
 		# Range: 0 ~ 1024
@@ -139,7 +139,7 @@
 		jar_liquids = true
 
 	[functional.cage]
-		enabled = true
+		enabled = false
 		#Allows all entities to be captured by cages and jars. Not meant for survival
 		allow_all_mobs = false
 		#Allows all baby mobs to be captured by cages
@@ -164,7 +164,7 @@
 		simple_safes = false
 
 	[functional.sack]
-		enabled = true
+		enabled = false
 		#Penalize the player with slowness effect when carrying too many sacks
 		sack_penalty = true
 		#Maximum number of sacks after which the overencumbered effect will be applied. Each multiple of this number will increase the effect strength by one
@@ -298,7 +298,7 @@
 	wicker_fence = true
 
 	[building.spider_head]
-		enabled = true
+		enabled = false
 
 	[building.barnacles]
 		enabled = true

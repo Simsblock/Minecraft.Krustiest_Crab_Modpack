@@ -1,6 +1,6 @@
 [items]
 	#Turtle Shells now give unlimited Water Breathing as long as they are on, but run out of durability as they do so
-	"Turtle Shell rework" = true
+	"Turtle Shell rework" = false
 
 	[items.trades]
 		"Clerics buy thrasher teeth" = true

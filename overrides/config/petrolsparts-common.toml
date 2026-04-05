@@ -24,7 +24,7 @@
 	planetaryGearset = true
 	#.
 	#Enable default Recipe for the Pneumatic Tube
-	pneumaticTube = true
+	pneumaticTube = false
 	#.
 	#Enable default Recipe for the Redstone Programmer
 	redstoneProgrammer = true

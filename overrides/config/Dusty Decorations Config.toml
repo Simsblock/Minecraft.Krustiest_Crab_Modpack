@@ -2,9 +2,9 @@
 	#Enable or Disable Guardians dropping Sea Glass Shards (True by default)
 	"Guardians Drop Seaglass" = true
 	#Enable or Disable Animals dropping skulls (True by default)
-	"Drop Animal Skulls" = true
+	"Drop Animal Skulls" = false
 	#Enable or Disable Cows & Mooshrooms dropping Cow-hides (True by default)
-	"Drop Cow Hides" = true
+	"Drop Cow Hides" = false
 	#Enable or Disable Fish dropping fish bones (True by default)
 	"Drop Fish Bones" = true
 	#Chance of cow dropping skull ( 0.025 by default)
