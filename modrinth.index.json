@@ -2180,6 +2180,21 @@
       ],
       "fileSize": 686447
     },
+        {
+      "path": "mods/SubtleEffects-neoforge-1.21.1-1.14.1.jar.disabled",
+      "hashes": {
+        "sha512": "15ec59ba0ab5b964ceece6803d7b640289e5a4cb97e2b81bacaa31060f46337d4e59ef96b576a937ed02045e4d5826b3ae64fa1864d80ef04fd565337d7e68a6",
+        "sha1": "320450dd4a6d7559a5cf8411b105df0cc8fc4c58"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/4q8UOK1d/versions/XP3ycmOT/SubtleEffects-neoforge-1.21.1-1.14.1.jar"
+      ],
+      "fileSize": 3269919
+    },
     {
       "path": "mods/fast-ip-ping-v1.0.8-mc1.21.1-neoforge.jar",
       "hashes": {
