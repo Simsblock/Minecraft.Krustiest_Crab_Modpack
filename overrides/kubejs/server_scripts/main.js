@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
         '#c:tools/knife',           
         [                           
             'hybrid-aquatic:raw_fish_meat', 
-            'crabbersdelight:fish_bones'
+            'dustydecorations:fishbones'
         ]
     )
     
@@ -108,7 +108,7 @@ ServerEvents.recipes(event => {
         '#c:tools/knife',           
         [                           
             '2x hybrid-aquatic:raw_fish_meat', 
-            'crabbersdelight:fish_bones'
+            'dustydecorations:fishbones'
         ]
     )
     
@@ -117,7 +117,7 @@ ServerEvents.recipes(event => {
         '#c:tools/knife', 
         [
             'hybrid-aquatic:raw_fish_steak', 
-            'crabbersdelight:fish_bones'
+            'dustydecorations:fishbones'
         ]
     )
 
@@ -265,7 +265,7 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped('minecraft:chainmail_boots', [
-        '  ',
+        '   ',
         'N N',
         'I I'
     ], {
