@@ -1926,21 +1926,6 @@
       "fileSize": 934594
     },
     {
-      "path": "mods/emi-1.1.22+1.21.1+neoforge.jar",
-      "hashes": {
-        "sha512": "6b4f2b93ccd40bbbf3d1f368a9d92b43777543c44243a76ed4010bd563a7f9658decdd58a3d79a3cdc04a288bf98e327a1cce93a5a9d2b8840306578fe633bca",
-        "sha1": "cbbd038194cd63249db185c53b1d50a1767f80a3"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/fRiHVvU7/versions/ouSj7NfF/emi-1.1.22%2B1.21.1%2Bneoforge.jar"
-      ],
-      "fileSize": 1038248
-    },
-    {
       "path": "mods/create_pattern_schematics-2.0.10.jar",
       "hashes": {
         "sha512": "c55e7d708aab59990ea123b32b5ecca3cdd8a0409e441257e87ac2bc414c15a4976ed06fb4aea3f4c216c4951f519295bb111c896642fd80520bcfc9227e24ee",
@@ -2479,21 +2464,6 @@
         "https://cdn.modrinth.com/data/rv1sovni/versions/aJd8UVN0/woodworks-1.21.1-4.0.2.jar"
       ],
       "fileSize": 1411040
-    },
-    {
-      "path": "mods/emixx-neoforge-1.2.3.jar",
-      "hashes": {
-        "sha1": "5bfd6ca144cd6cf72c6df9a9ab400403ca774e79",
-        "sha512": "15eb94d5c2be00f06a96a45a68fc2fe3171f60c87c26d2ebf4ef359271f8b0ee3995f281af17e2b228ab543770ec2d8b486c98f0fe4b511c168a4c0c0e30db40"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/AWMWYMwC/versions/sdRUQHCL/emixx-neoforge-1.2.3.jar"
-      ],
-      "fileSize": 207208
     },
     {
       "path": "mods/rewithered-1.0.8+1.21.1-neoforge.jar",
