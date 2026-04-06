@@ -43,45 +43,56 @@ ServerEvents.tags('item', event => {
 
 ServerEvents.recipes(event => {
 
-    event.remove({ id: 'minecraft:recipes/diamond_sword' })
-    event.remove({ id: 'farmersdelight:cooking/crab_cakes' })
-    event.remove({ id: 'farmersdelight:cooking/safety_net' })
-    event.remove({ id: 'hybrid-aquatic:recipes/raw_crab' })
-    event.remove({ id: 'hybrid-aquatic:recipes/raw_fish_meat_small' })
-    event.remove({ id: 'hybrid-aquatic:recipes/raw_fish_meat_medium' })
-    event.remove({ id: 'hybrid-aquatic:recipes/raw_fish_steak' })
-    event.remove({ id: 'hybrid-aquatic:recipes/trident' })
-    event.remove({ id: 'upgrade-aquatic:recipe/trident' })
-    event.remove({ id: 'create-aquatic-ambitions:recipe/crafting/materials/trident' })
-    event.remove({ id: 'youkaishomecoming:recipes/crab_roe' })
-    event.remove({ id: 'beautify:recipes/hanging_pot' })
-    event.remove({ id: 'dustydecorations:recipes/rope' })
-    event.remove({ id: 'dustydecorations:recipes/wedged_knife' })
-    event.remove({ id: 'dustydecorations:recipes/wedged_cleaver' })
-    event.remove({ id: 'dustydecorations:recipes/pots_and_pans_stack' })
+    event.remove({ id: 'minecraft:diamond_sword' })
+    event.remove({ id: 'minecraft:diamond_axe' })
+    event.remove({ id: 'minecraft:diamond_pickaxe' })
+    event.remove({ id: 'minecraft:diamond_shovel' })
+    event.remove({ id: 'minecraft:diamond_hoe' })
+    event.remove({ output: 'hybrid-aquatic:raw_crab' })
+    event.remove({ output: 'youkaishomecoming:crab_roe' })
+    event.remove({ output: 'dustydecorations:rope' })
+    event.remove({ output: 'dustydecorations:wedged_knife' })
+    event.remove({ output: 'dustydecorations:wedged_cleaver' })
+    event.remove({ output: 'dustydecorations:pots_and_pans_stack' })
+
+    event.remove({ output: 'minecraft:trident' })
+    event.remove({ output: 'farmersdelight:safety_net' })
+    event.remove({ output: 'beautify:hanging_pot' })
 
     event.remove({ output: 'create_sa:rose_quartz_sword' })
     event.remove({ output: 'create_sa:rose_quartz_axe' })
     event.remove({ output: 'create_sa:rose_quartz_pickaxe' })
     event.remove({ output: 'create_sa:rose_quartz_shovel' })
 
-    event.custom({
-        type: "farmersdelight:cooking",
-        recipe_book_tab: "meals", 
-        ingredients: [
-            { item: 'youkaisfeasts:crab_meat' },
-            { tag: 'c:dough' },
-            { item: 'minecraft:milk_bucket' },
-            { item: 'minecraft:egg' },
-            { item: 'farmersdelight:onion' }
-        ],
-        result: { 
-            id: 'crabbersdelight:crab_cakes',
-            count: 1 
-        },
-        experience: 2.0,
-        cookingtime: 200
-    })
+    //unhappy with this but havent found a simple solution to only use one rose quartz
+
+    event.smithing(
+        'create_sa:rose_quartz_sword', 
+        'create:polished_rose_quartz',                    
+        'minecraft:golden_sword',      
+        'create:polished_rose_quartz' 
+    )
+
+    event.smithing(
+        'create_sa:rose_quartz_axe', 
+        'create:polished_rose_quartz',                
+        'minecraft:golden_axe', 
+        'create:polished_rose_quartz'
+    )
+
+    event.smithing(
+        'create_sa:rose_quartz_pickaxe', 
+        'create:polished_rose_quartz',                
+        'minecraft:golden_pickaxe', 
+        'create:polished_rose_quartz'
+    )
+
+    event.smithing(
+        'create_sa:rose_quartz_shovel', 
+        'create:polished_rose_quartz',                
+        'minecraft:golden_shovel', 
+        'create:polished_rose_quartz'
+    )
 
     event.recipes.farmersdelight.cutting(
         '#c:small_fish',           
@@ -128,7 +139,7 @@ ServerEvents.recipes(event => {
         ' S ',
         '   '
     ], {
-        S: 'armersdelight:straw',
+        S: 'farmersdelight:straw',
     })
 
     event.shapeless('4x supplementaries:rope', [
@@ -190,33 +201,41 @@ ServerEvents.recipes(event => {
         S: 'create_sa:zinc_handle'
     })
 
-    event.smithing(
-        'create_sa:rose_quartz_sword', 
-        'minecraft:air',                
-        'minecraft:golden_sword', 
-        'create:polished_rose_quartz'
-    )
+        event.shaped('minecraft:diamond_axe', [
+        'DD ',
+        'DS ',
+        ' S '
+    ], {
+        D: 'minecraft:diamond',
+        S: 'create_sa:zinc_handle'
+    })
 
-    event.smithing(
-        'create_sa:rose_quartz_axe', 
-        'minecraft:air',                
-        'minecraft:golden_axe', 
-        'create:polished_rose_quartz'
-    )
+        event.shaped('minecraft:diamond_pickaxe', [
+        'DDD',
+        ' S ',
+        ' S '
+    ], {
+        D: 'minecraft:diamond',
+        S: 'create_sa:zinc_handle'
+    })
 
-    event.smithing(
-        'create_sa:rose_quartz_pickaxe', 
-        'minecraft:air',                
-        'minecraft:golden_pickaxe', 
-        'create:polished_rose_quartz'
-    )
+        event.shaped('minecraft:diamond_shovel', [
+        ' D ',
+        ' S ',
+        ' S '
+    ], {
+        D: 'minecraft:diamond',
+        S: 'create_sa:zinc_handle'
+    })
 
-    event.smithing(
-        'create_sa:rose_quartz_shovel', 
-        'minecraft:air',                
-        'minecraft:golden_shovel', 
-        'create:polished_rose_quartz'
-    )
+        event.shaped('minecraft:diamond_hoe', [
+        'DD ',
+        ' S ',
+        ' S '
+    ], {
+        D: 'minecraft:diamond',
+        S: 'create_sa:zinc_handle'
+    })
 
     event.shaped('minecraft:chainmail_helmet', [
         'INI',
