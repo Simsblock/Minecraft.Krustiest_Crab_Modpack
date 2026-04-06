@@ -1881,21 +1881,6 @@
       "fileSize": 218920
     },
     {
-      "path": "mods/celestial_1.21_neoforge-2.0.jar.disabled",
-      "hashes": {
-        "sha1": "f6c5225720030ef29a8462702746713ec6761393",
-        "sha512": "c8e960430e4374a3fb6dd1744602e3807493698002dc3af6138b195c3f8a5c6c522d549739eb7f4e31a5418f68e6b4bb50e1f01829a1a4f5206fa242dccfa83a"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/J31lhO5V/versions/Y7MVUUUm/celestial_1.21_neoforge-2.0.jar"
-      ],
-      "fileSize": 202431
-    },
-    {
       "path": "mods/wilderflowers-1.1.0+1.21.1-neoforge.jar",
       "hashes": {
         "sha512": "3314036eef66769d5dc842abf8a1e5478755f91f6a49839b9a77ee5eecbb7721859c1ac739feeebce6f942d26de06575583d6f2618ba1908651255c3101b9d71",
@@ -2014,21 +1999,6 @@
         "https://cdn.modrinth.com/data/3dT9sgt4/versions/yFjEcj2g/YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar"
       ],
       "fileSize": 1025571
-    },
-    {
-      "path": "resourcepacks/Dramatic Skys Demo 1.5.3.36.2.zip.disabled",
-      "hashes": {
-        "sha1": "483049f9e82cfaedb51748124ea92237c9c28371",
-        "sha512": "00f62d91a67bc00f83ff5be65d11cdb71f2386583dd4fec26f036b2fc400b4a37a6c404a237bf4dfd479da0230c28125a4dec86799dc0cc691d5bde863bc30a1"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/2YyNMled/versions/Y8mjFzcP/Dramatic%20Skys%20Demo%201.5.3.36.2.zip"
-      ],
-      "fileSize": 13912171
     },
     {
       "path": "mods/kubejsdelight-1.1.4.jar",
@@ -2916,21 +2886,6 @@
       "fileSize": 145792
     },
     {
-      "path": "mods/rrls-5.0.10+mc1.21.1-forge.jar",
-      "hashes": {
-        "sha512": "5a1d6776b2b8769f752a8c60b0f816b05385dfc7c0d27d0b8435bb11825531988e216f108ea7b38fb40ec38796036a6a6421572ec86e1ffd22d3963ba67f019b",
-        "sha1": "4f02d745abde6d655d62ce2c3aafb2c8a14fcc27"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/ZP7xHXtw/versions/CSHa8VOm/rrls-5.0.10%2Bmc1.21.1-forge.jar"
-      ],
-      "fileSize": 180241
-    },
-    {
       "path": "mods/scholar-neoforge-1.21.1-1.1.13.jar",
       "hashes": {
         "sha1": "2974d5eedb06b69d54b0405f18a5b35ccb0eacb8",
@@ -3546,21 +3501,6 @@
       "fileSize": 59134
     },
     {
-      "path": "mods/fabricskyboxes-0.7.4+mc1.21.jar",
-      "hashes": {
-        "sha512": "cab235d72e548fa2baad8ad6e6704c8345a6fa1bbe57791be31e30e0a464f97d4e1c55873b890f97a62116311e109bc7f9265b72fb615afda1948350dcb27113",
-        "sha1": "d7c80f23792afc6018da2477d46804114529afca"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/YBz7DOs8/versions/yhQrKNAJ/fabricskyboxes-0.7.4%2Bmc1.21.jar"
-      ],
-      "fileSize": 206127
-    },
-    {
       "path": "mods/Mutated-Items-2.0.1-neoforge-1.21.1.jar",
       "hashes": {
         "sha512": "c63895aba1b45f78a8850418b5ed5ba8df52a7d2b92dab4897a7a7071e5bebbe4c88541dea51c901f07f46d3a5fca4f8ad0b35f79c811ad1fef6617fe66cfa57",
@@ -3754,21 +3694,6 @@
         "https://cdn.modrinth.com/data/slMy2SdH/versions/PMpWyC0l/realmrpg_balloons-0.9.1-neoforge-1.21.1.jar"
       ],
       "fileSize": 227729
-    },
-    {
-      "path": "mods/optiboxes-1.4+mc1.21.1-9eba186.jar",
-      "hashes": {
-        "sha1": "f45cd6c44b50f752c113348c12aa9e42405d6c63",
-        "sha512": "0fe37a7bde5aa02708a0e57955b09d27876eaec8ca0ca6cab84fb6496eaf3e51f0a11ebae128e7df819ef823cb114e3840340917129164e25acddda9e1cf623b"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/DWuwk8aA/versions/ipMSJF5L/optiboxes-1.4%2Bmc1.21.1-9eba186.jar"
-      ],
-      "fileSize": 452399
     },
     {
       "path": "mods/NaturesCompass-1.21.1-3.0.3-neoforge.jar",
@@ -4654,21 +4579,6 @@
         "https://cdn.modrinth.com/data/z69Pxatv/versions/ECkmsrG4/create_easy_structures-0.2a-neoforge-1.21.1.jar"
       ],
       "fileSize": 469490
-    },
-    {
-      "path": "mods/fabric-api-0.116.10+1.21.1.jar",
-      "hashes": {
-        "sha512": "cc8f207ca861e91c0d42f7d57b4448c2b265bbfb20f38182fad2dd14d3f4fbbbfa5c85b562ddaad33797f67fce8080b2283cdd6fa194f4ace18969d670643454",
-        "sha1": "22b506a0770f148f46737329e8cae68aaefe3165"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/P7dR8mSH/versions/ID8pq1x1/fabric-api-0.116.10%2B1.21.1.jar"
-      ],
-      "fileSize": 2425988
     },
     {
       "path": "mods/create_pattern_schematics-2.0.10.jar",
