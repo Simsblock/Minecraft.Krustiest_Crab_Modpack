@@ -876,6 +876,21 @@
       "fileSize": 266882
     },
     {
+      "path": "mods/jei-1.21.1-neoforge-19.27.0.340.jar",
+      "hashes": {
+        "sha512": "8bad8eb3c8e974f867e23e4d74598f603c5fbf03eb5356a386dd37cb9fa23e08ad1f58be6b7be50d2fbf9d3fbfaeac8584c70ced736df4b8f82c7c75be242998",
+        "sha1": "27d0d85e7e32e926fc3664ab6815df5cdabb7941"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/u6dRKJwZ/versions/YAcQ6elZ/jei-1.21.1-neoforge-19.27.0.340.jar"
+      ],
+      "fileSize": 1529391
+    },
+    {
       "path": "mods/NoChatRestrictions-NeoForge-MC1.21.11-v1.0.0.jar",
       "hashes": {
         "sha1": "9e564afb3c2e69fecf401f54f51f4bce335aea28",
@@ -3426,6 +3441,21 @@
       "fileSize": 774148
     },
     {
+      "path": "mods/morejs-neoforge-1.21.1-0.16.0.jar",
+      "hashes": {
+        "sha1": "7e8aea4f03b18076cab5555f6d30e35ff919b342",
+        "sha512": "3fbbe82b5b827e03518f7e515978af4e9fc0736b5385f80b5b86ef562a51e53fe32e815d416a6a0fe1ba752f835fbf641b42b59b5ffd5bb6469abb8b74ab29a2"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/mo64mR1W/versions/kyNrtsUY/morejs-neoforge-1.21.1-0.16.0.jar"
+      ],
+      "fileSize": 157690
+    },
+    {
       "path": "mods/EasyMagic-v21.1.4-1.21.1-NeoForge.jar",
       "hashes": {
         "sha1": "bbd1d7afd2b803f6c8055b5342d581ea542e132e",
@@ -3605,6 +3635,21 @@
       ],
       "fileSize": 18382
     },
+        {
+      "path": "mods/jearchaeology-1.21.0-1.1.5.jar",
+      "hashes": {
+        "sha512": "d3fb7aba18a8caa2efc5ee56e648414961675b8f9717d653820836d058b9ce43061e7b13de18ff2bc3c46cf58a24af67ed4f3d57dccb2ce4f0ee6c4e62917438",
+        "sha1": "db6532fc1630450bac0a4d38ce87feb97696b88f"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/K0LQpdmm/versions/49BQQZfR/jearchaeology-1.21.0-1.1.5.jar"
+      ],
+      "fileSize": 43589
+    },
     {
       "path": "mods/soaring_phantoms-1.2.2+1.21.1-neoforge.jar",
       "hashes": {
@@ -3694,6 +3739,21 @@
         "https://cdn.modrinth.com/data/slMy2SdH/versions/PMpWyC0l/realmrpg_balloons-0.9.1-neoforge-1.21.1.jar"
       ],
       "fileSize": 227729
+    },
+    {
+      "path": "mods/soulbound-neoforge-1.0.1+1.21.1.jar",
+      "hashes": {
+        "sha1": "258de64ab319861313994eb6b7a00757aab497fc",
+        "sha512": "329292855e3aa454b23612d16f3920b54d1ce9d8a922a0a97186ba5a0df7d8a834e2c84d90022b0e05b7ccd7ab6627eb158457abad71f4b95648b20a4d60e7bb"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/MmUmcwom/versions/RkfLMEih/soulbound-neoforge-1.0.1%2B1.21.1.jar"
+      ],
+      "fileSize": 17464
     },
     {
       "path": "mods/NaturesCompass-1.21.1-3.0.3-neoforge.jar",
@@ -3799,6 +3859,21 @@
         "https://cdn.modrinth.com/data/6xwxDTgf/versions/TJ1RI2mA/VanillaBackport-neoforge-1.21.1-1.1.6.3.jar"
       ],
       "fileSize": 27456653
+    },
+    {
+      "path": "mods/createjeicompat-1.0.2.jar",
+      "hashes": {
+        "sha512": "35b6b68858cd033bad2f7f796d0ccf2c1caed5198457e0ee0fa634b3bdaac169f7b89bbd87cce7f2eb5178f5562a41fa201fa00874a1cb864f4d28f9d86e75af",
+        "sha1": "a9465e87a603f2c7d356197b797411ececd4f71a"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/1fkSpqmV/versions/GJ7IAX1H/createjeicompat-1.0.2.jar"
+      ],
+      "fileSize": 14013
     },
     {
       "path": "shaderpacks/ComplementaryUnbound_r5.7.1.zip.disabled",
@@ -4129,6 +4204,21 @@
         "https://cdn.modrinth.com/data/13uF4XO7/versions/8jJSPQok/lukis-ancient-cities-v1.2.jar"
       ],
       "fileSize": 2994979
+    },
+        {
+      "path": "mods/ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar.disabled",
+      "hashes": {
+        "sha1": "5e9dda03c6142400b95dc3114675e07c943d554d",
+        "sha512": "bff82f778fc42a88a4b5d98759498ad85f086b23527e51f5c4c717a2fe9d1bcfa583f38ae12ff2d4403580c734cdfcef2daedbe19cb470bdea203f0595a687a7"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/9wv7LuMc/versions/wtmSnIFo/ImmersiveUI-NEOFORGE-0.3.3%2B1.21.1.jar"
+      ],
+      "fileSize": 217081
     },
     {
       "path": "mods/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
