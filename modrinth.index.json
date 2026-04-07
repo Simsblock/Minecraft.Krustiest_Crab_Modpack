@@ -1281,21 +1281,6 @@
       "fileSize": 52978
     },
     {
-      "path": "resourcepacks/Dramatic Skys Demo 1.5.3.36.2.zip",
-      "hashes": {
-        "sha512": "00f62d91a67bc00f83ff5be65d11cdb71f2386583dd4fec26f036b2fc400b4a37a6c404a237bf4dfd479da0230c28125a4dec86799dc0cc691d5bde863bc30a1",
-        "sha1": "483049f9e82cfaedb51748124ea92237c9c28371"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/2YyNMled/versions/Y8mjFzcP/Dramatic%20Skys%20Demo%201.5.3.36.2.zip"
-      ],
-      "fileSize": 13912171
-    },
-    {
       "path": "mods/Item-Obliterator-NeoForge-MC1.21.1-2.3.0.jar",
       "hashes": {
         "sha512": "b6d3cc651fa76c03d6845dd667fc673b74bd7409e7a1631907d82200b15ae50d76dd018c9224bc9314a46314bb478c0a48cc7b37d717e70f05dad8fb2878ac77",
@@ -1654,21 +1639,6 @@
         "https://cdn.modrinth.com/data/f3wjDYg6/versions/5Lq5c5Tl/create_blaze_burner_fuels-1.0.2-neoforge-1.21.1.jar"
       ],
       "fileSize": 768288
-    },
-    {
-      "path": "mods/optiboxes-1.4+mc1.21.1-9eba186.jar",
-      "hashes": {
-        "sha1": "f45cd6c44b50f752c113348c12aa9e42405d6c63",
-        "sha512": "0fe37a7bde5aa02708a0e57955b09d27876eaec8ca0ca6cab84fb6496eaf3e51f0a11ebae128e7df819ef823cb114e3840340917129164e25acddda9e1cf623b"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/DWuwk8aA/versions/ipMSJF5L/optiboxes-1.4%2Bmc1.21.1-9eba186.jar"
-      ],
-      "fileSize": 452399
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.7.1.zip",
@@ -2436,21 +2406,6 @@
       "fileSize": 352598
     },
     {
-      "path": "mods/fabricskyboxes-0.7.4+mc1.21.jar",
-      "hashes": {
-        "sha1": "d7c80f23792afc6018da2477d46804114529afca",
-        "sha512": "cab235d72e548fa2baad8ad6e6704c8345a6fa1bbe57791be31e30e0a464f97d4e1c55873b890f97a62116311e109bc7f9265b72fb615afda1948350dcb27113"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/YBz7DOs8/versions/yhQrKNAJ/fabricskyboxes-0.7.4%2Bmc1.21.jar"
-      ],
-      "fileSize": 206127
-    },
-    {
       "path": "mods/variantsandventures-neoforge-1.0.23+mc1.21.1.jar",
       "hashes": {
         "sha1": "7c988c922062aaf8c84ddec9d29fc24b7a2d137e",
@@ -3064,21 +3019,6 @@
         "https://cdn.modrinth.com/data/TKAMHvcV/versions/7xpR8Ggh/backpacked-shells-1.0.0%2Bmc1.21.1%2B1.21.11.jar"
       ],
       "fileSize": 19314
-    },
-    {
-      "path": "mods/celestial_1.21_neoforge-2.0.jar",
-      "hashes": {
-        "sha1": "f6c5225720030ef29a8462702746713ec6761393",
-        "sha512": "c8e960430e4374a3fb6dd1744602e3807493698002dc3af6138b195c3f8a5c6c522d549739eb7f4e31a5418f68e6b4bb50e1f01829a1a4f5206fa242dccfa83a"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/J31lhO5V/versions/Y7MVUUUm/celestial_1.21_neoforge-2.0.jar"
-      ],
-      "fileSize": 202431
     },
     {
       "path": "mods/emi-1.1.22+1.21.1+neoforge.jar",
@@ -3844,21 +3784,6 @@
         "https://cdn.modrinth.com/data/LGVihYcz/versions/wGOa5uxT/EMIProfessions-neoforge-1.21.1-1.0.3.jar"
       ],
       "fileSize": 23543
-    },
-    {
-      "path": "mods/fabric-api-0.116.10+1.21.1.jar",
-      "hashes": {
-        "sha512": "cc8f207ca861e91c0d42f7d57b4448c2b265bbfb20f38182fad2dd14d3f4fbbbfa5c85b562ddaad33797f67fce8080b2283cdd6fa194f4ace18969d670643454",
-        "sha1": "22b506a0770f148f46737329e8cae68aaefe3165"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/P7dR8mSH/versions/ID8pq1x1/fabric-api-0.116.10%2B1.21.1.jar"
-      ],
-      "fileSize": 2425988
     },
     {
       "path": "mods/bookshelf-neoforge-1.21.1-21.1.81.jar",
