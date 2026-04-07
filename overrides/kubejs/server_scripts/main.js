@@ -272,91 +272,124 @@ ServerEvents.recipes(event => {
         I: 'minecraft:iron_ingot',
         N: 'minecraft:iron_nugget'
     })
+})
 
-    MoreJS.villagerTrades((event) => {
-        event.removeVanillaTrades('librarian', [1, 2, 3, 4, 5], (trade) => {
-            return trade.output.id == 'minecraft:enchanted_book';
-        });
-    });
-
-    MoreJS.villagerTrades((event) => {
-
-        event.addTrade('librarian', 5, [
-            '10x minecraft:diamond', 
-            'minecraft:shield'
-        ], Item.of('minecraft:book').enchant('minecraft:unbreaking', 3));
-
-        event.addTrade('librarian', 5, [
-            'minecraft:clock', 
-            '5x minecraft:blaze_rod'
-        ], Item.of('minecraft:book').enchant('minecraft:efficency', 5));
-
-        event.addTrade('librarian', 5, [
-            '5x minecraft:experience_bottle', 
-            '5x create:rose_quartz'
-        ], Item.of('minecraft:book').enchant('minecraft:mending', 1));
-
-        event.addTrade('librarian', 5, [
-            'minecraft:recovery_compass', 
-            'minecraft:ancient_debris'
-        ], Item.of('minecraft:book').enchant('soulbound:soulbound', 1));
-
-    });
-
-    ServerEvents.tags('enchantment', event => {
-
-        const block_enchanting = [
-            'minecraft:breach',
-            'minecraft:protection',
-            'minecraft:cleaving',
-            'minecraft:power',
-            'minecraft:sharpness',
-            //'minecraft:sweeping_edge'
-            'enchantencore:swift_slash',
-            'enchantencore:sonic',
-            'enchantencore:regrowth',
-            'enchantencore:swift_slash',
-        ]
-
-        block_enchanting.forEach(ench => {
-            event.remove('minecraft:in_enchanting_table', ench)
-            event.remove('minecraft:on_random_loot', ench)
-            event.remove('minecraft:tradeable', ench)
-        })
-
-        const remove_enchanting = [
-            'minecraft:efficency',
-            'minecraft:mending',
-            'minecraft:fortune',
-            'minecraft:looting',
-            'minecraft:unbreaking',
-            'soulbound:soulbound'
-        ]
-
-        remove_enchanting.forEach(ench => {
-            event.remove('minecraft:in_enchanting_table', ench)
-        })
-
-        const allow_enchanting = [
-            'minecraft:vanishing_curse',
-            'minecraft:binding_curse',
-            'minecraft:wind_burst',
-            'enchantencore:ownership_curse',
-            'enchantencore:caravan_curse',
-            'enchantencore:undying_curse',
-            'enchantencore:hiding_curse',
-            'enchantencore:reach_curse',
-            'enchantencore:fragility_curse',
-            'enchantencore:welfare_curse',
-            'enchantencore:randomness_curse',
-            'enchantencore:death_curse',
-            'enchantencore:breeze_curse',
-            'enchantencore:crank_curse',
-        ]
-
-        allow_enchanting.forEach(ench => {
-            event.add('minecraft:in_enchanting_table', ench)
-        })
+// wiki cuz modrinth modpage got wrong wiki: https://docs.almostreliable.com/morejs/
+MoreJS.villagerTrades(event => {
+    
+    event.removeTrades({
+        output: "minecraft:enchanted_book",
+        level: 1,
+        professions: "minecraft:librarian",
+    })
+        event.removeTrades({
+        output: "minecraft:enchanted_book",
+        level: 2,
+        professions: "minecraft:librarian",
+    })
+        event.removeTrades({
+        output: "minecraft:enchanted_book",
+        level: 3,
+        professions: "minecraft:librarian",
+    })
+        event.removeTrades({
+        output: "minecraft:enchanted_book",
+        level: 4,
+        professions: "minecraft:librarian",
+    })
+        event.removeTrades({
+        output: "minecraft:enchanted_book",
+        level: 5,
+        professions: "minecraft:librarian",
     })
 
+    event.addTrade(
+        "minecraft:librarian", 
+        5, 
+        [Item.of("minecraft:diamond", 10), Item.of("minecraft:shield")],
+        Item.of('minecraft:book').enchant('minecraft:unbreaking', 3)
+    );
+
+    event.addTrade(
+        "minecraft:librarian", 
+        5,
+        [Item.of("minecraft:clock", 3), Item.of("minecraft:blaze_rod", 5)], 
+        Item.of('minecraft:book').enchant('minecraft:efficiency', 5)
+    );
+
+    event.addTrade(
+        "minecraft:librarian", 
+        5,
+        [Item.of("minecraft:experience_bottle", 5), Item.of("create:rose_quartz", 5)], 
+        Item.of('minecraft:book').enchant('minecraft:mending', 1)
+    );
+
+    event.addTrade(
+        "minecraft:librarian", 
+        5,
+        [Item.of("minecraft:recovery_compass", 1), Item.of("minecraft:ancient_debris", 1)], 
+        Item.of('minecraft:book').enchant('soulbound:soulbound', 1)
+    );
+
+});
+
+ServerEvents.tags('enchantment', event => {
+
+    const block_enchanting = [
+        'minecraft:breach',
+        'minecraft:protection',
+        'minecraft:cleaving',
+        'minecraft:power',
+        'minecraft:sharpness',
+        //'minecraft:sweeping_edge'
+        'enchantencore:swift_slash',
+        'enchantencore:sonic',
+        'enchantencore:regrowth',
+        'enchantencore:swift_slash',
+    ]
+
+    // non treasure was esential to remove/add since in_enchanting_table uses it.... bruh
+    block_enchanting.forEach(ench => {
+        event.remove('minecraft:in_enchanting_table', ench)
+        event.remove('minecraft:non_treasure', ench)
+        event.remove('minecraft:on_random_loot', ench)
+        event.remove('minecraft:tradeable', ench)
+    })
+
+    const remove_enchanting = [
+        'minecraft:efficiency',
+        'minecraft:mending',
+        'minecraft:fortune',
+        'minecraft:looting',
+        'minecraft:unbreaking',
+        'soulbound:soulbound'
+    ]
+
+    remove_enchanting.forEach(ench => {
+        event.remove('minecraft:in_enchanting_table', ench)
+        event.remove('minecraft:non_treasure', ench)
+    })
+
+    const allow_enchanting = [
+        'minecraft:vanishing_curse',
+        'minecraft:binding_curse',
+        'minecraft:wind_burst',
+        'enchantencore:ownership_curse',
+        'enchantencore:caravan_curse',
+        'enchantencore:undying_curse',
+        'enchantencore:hiding_curse',
+        'enchantencore:reach_curse',
+        'enchantencore:fragility_curse',
+        'enchantencore:welfare_curse',
+        'enchantencore:randomness_curse',
+        'enchantencore:death_curse',
+        'enchantencore:breeze_curse',
+        'enchantencore:crank_curse',
+    ]
+
+    allow_enchanting.forEach(ench => {
+        event.add('minecraft:in_enchanting_table', ench)
+        event.add('minecraft:non_treasure', ench)
+        event.remove('minecraft:treasure', ench)
+    })
 })
