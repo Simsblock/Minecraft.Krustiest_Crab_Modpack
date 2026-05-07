@@ -64,6 +64,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'create_sa:rose_quartz_pickaxe' })
     event.remove({ output: 'create_sa:rose_quartz_shovel' })
 
+    event.remove({ output: 'simulated:rope_coupling' })
+
     //unhappy with this but havent found a simple solution to only use one rose quartz
 
     event.smithing(
@@ -271,6 +273,15 @@ ServerEvents.recipes(event => {
     ], {
         I: 'minecraft:iron_ingot',
         N: 'minecraft:iron_nugget'
+    })
+
+    event.shaped('simulated:rope_coupling', [
+        '   ',
+        'ISI',
+        '   '
+    ], {
+        I: 'minecraft:iron_nugget',
+        S: 'supplementaries:rope'
     })
 })
 
