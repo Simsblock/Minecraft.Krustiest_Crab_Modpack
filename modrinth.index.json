@@ -591,36 +591,6 @@
       "fileSize": 388678
     },
     {
-      "path": "mods/immersive_aircraft-1.4.3+1.21.1-neoforge.jar",
-      "hashes": {
-        "sha512": "b97ab8da190209187f2fa22ad85d874b106cea60fc21a211245699e84d2f4178da264d0d84842ebccf63f4bda37211ec694bf9369103fd89bf89f70b19b140f4",
-        "sha1": "ba66e5fa04484bd95a1002b03f44da41ebe27f23"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/x3HZvrj6/versions/lEyfKM50/immersive_aircraft-1.4.3%2B1.21.1-neoforge.jar"
-      ],
-      "fileSize": 2444626
-    },
-    {
-      "path": "mods/YungsMenuTweaks-1.21.1-NeoForge-2.1.2.jar",
-      "hashes": {
-        "sha1": "da42e597009dae71faa37290e98b7b69bca52c25",
-        "sha512": "509327f5f5542246e2b98811b36cf2f7e26fe81b7538f3443b958c0134029e0e1ae8483165adaf1f2c4ee5a531bf8b57a2628305f7caf6bf1301cf34ad46b5fb"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Hcy2DFKF/versions/OB9hQTpQ/YungsMenuTweaks-1.21.1-NeoForge-2.1.2.jar"
-      ],
-      "fileSize": 157761
-    },
-    {
       "path": "mods/BrewinAndChewin-neoforge-4.4.2+1.21.1.jar",
       "hashes": {
         "sha512": "ca6db594cc244307041b9f896956ad7dcba4727c62609a30aef9f913f5513238b7c898ecc39d4599385bdd177dea5c5de3149da34ab086217a307ab3f3e5aa06",
@@ -784,6 +754,21 @@
         "https://cdn.modrinth.com/data/ayWsj31j/versions/q4MJ1X5o/VistaAeronauticsFix-1.0.0.jar"
       ],
       "fileSize": 155054
+    },
+    {
+      "path": "mods/coroutil-neoforge-1.21.0-1.3.8.jar",
+      "hashes": {
+        "sha1": "b044c51d00d60b5645a0c0890812935cd933555f",
+        "sha512": "daae9e37acddedccad05e3f8e565f8b4c237f25b2462e043428f88b32fc27e4bc3a00955ed7426a7d7f93f068b4e96b37e2e42d121d40fdf94a31b6c2b7440e0"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/rLLJ1OZM/versions/H2YXCYUY/coroutil-neoforge-1.21.0-1.3.8.jar"
+      ],
+      "fileSize": 63981
     },
     {
       "path": "mods/Structory_26.1_v1.3.16.jar",
@@ -1296,7 +1281,7 @@
       "fileSize": 569173
     },
     {
-      "path": "mods/cbc_at_Neoforge_1.21.1_0.1.4c.jar",
+      "path": "mods/cbc_at_Neoforge_1.21.1_0.1.4c.jar.disabled",
       "hashes": {
         "sha1": "c209e451ae6830dc2cc83c3b3cc9cb0490778998",
         "sha512": "5e94655294b568e08e7d04de7ce369811baad3c01355a614e04933c5c46e6f33700cc44688e9038b61ded245c8bb1cd0c01d14ab8369898ac3a0dfb263a7deed"
@@ -2391,21 +2376,6 @@
       "fileSize": 347278
     },
     {
-      "path": "mods/man_of_many_planes-0.2.1+1.21.1-neoforge.jar",
-      "hashes": {
-        "sha512": "b306f5fae308ccd03ab72b552f634b3f5f57e9254a930ffafedae858cbce74c2557cf598e7efb959823c3f575544859cf0f19f26c3b477c75feec3c6a1481744",
-        "sha1": "73d0c0f2f751c5ea3c05298d616d19a04eebab20"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/9qdTHi0q/versions/onE42Qs7/man_of_many_planes-0.2.1%2B1.21.1-neoforge.jar"
-      ],
-      "fileSize": 725743
-    },
-    {
       "path": "mods/create_aquatic_ambitions-1.21.1-2.0.2.jar",
       "hashes": {
         "sha1": "39945d25188f3cb8feb74d09b78d7f7f7a74aaa7",
@@ -3064,6 +3034,21 @@
         "https://cdn.modrinth.com/data/1eAoo2KR/versions/7TVdVtxF/yet_another_config_lib_v3-3.8.2%2B1.21.1-neoforge.jar"
       ],
       "fileSize": 1118651
+    },
+    {
+      "path": "mods/watut-neoforge-1.21.0-1.2.7.jar",
+      "hashes": {
+        "sha1": "07cfb8fb1269f1eae1056492912e3544be979f62",
+        "sha512": "b96bd6146344a86e4ad45fd4c274a15f0e146bcc13747940f8b9f0ea21c8ea8bca4d005444f2bf8082f29ec7ad1ce03507764ddfbdda64ac9284d8ac400b44c5"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/AtB5mHky/versions/uWr2aTW9/watut-neoforge-1.21.0-1.2.7.jar"
+      ],
+      "fileSize": 432269
     },
     {
       "path": "mods/Design-n-Decor-1.21.1-2.1.0.jar",
