@@ -493,4 +493,5 @@ ServerEvents.tags('enchantment', event => {
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
     event.remove('create_sa:grapplin_whisk')
     event.remove('petrolsparts:pneumatic_tube')
+    event.remove('create_connected:fan_seething_catalyst')
 })
