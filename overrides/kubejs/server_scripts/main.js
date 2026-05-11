@@ -1,5 +1,55 @@
 ServerEvents.tags('item', event => {
-    event.add('c:dough', ['farmersdelight:wheat_dough', 'create:dough'])
+
+	const materials = ['steel', 'aluminum', 'lead']
+    
+    materials.forEach(mat => {
+        const sword = `tfmg:${mat}_sword`
+        const pickaxe = `tfmg:${mat}_pickaxe`
+        const shovel = `tfmg:${mat}_shovel`
+        const axe = `tfmg:${mat}_axe`
+        const hoe = `tfmg:${mat}_hoe`
+
+        event.add('minecraft:swords', sword)
+        event.add('c:tools/swords', sword)
+        event.add('c:tools/melee_weapon', sword)
+        event.add('minecraft:enchantable/sword', sword)
+        event.add('minecraft:enchantable/weapon', sword)
+        event.add('minecraft:enchantable/sharp_weapon', sword)
+        event.add('minecraft:enchantable/fire_aspect', sword)
+        event.add('minecraft:enchantable/durability', sword)
+
+        event.add('minecraft:pickaxes', pickaxe)
+        event.add('c:tools/pickaxes', pickaxe)
+        event.add('c:tools/mining_tool', pickaxe)
+        event.add('minecraft:enchantable/mining', pickaxe)
+        event.add('minecraft:enchantable/mining_loot', pickaxe)
+        event.add('minecraft:enchantable/durability', pickaxe)
+        event.add('minecraft:enchantable/vanishing', pickaxe)
+
+        event.add('minecraft:shovels', shovel)
+        event.add('c:tools/shovels', shovel)
+        event.add('c:tools/mining_tool', shovel)
+        event.add('minecraft:enchantable/mining', shovel)
+        event.add('minecraft:enchantable/durability', shovel)
+
+        event.add('minecraft:axes', axe)
+        event.add('c:tools/axes', axe)
+        event.add('c:tools/mining_tool', axe)
+        event.add('c:tools/melee_weapon', axe)
+        event.add('minecraft:enchantable/mining', axe)
+        event.add('minecraft:enchantable/sharp_weapon', axe)
+        event.add('minecraft:enchantable/durability', axe)
+
+        event.add('minecraft:hoes', hoe)
+        event.add('c:tools/hoes', hoe)
+        event.add('minecraft:enchantable/mining', hoe)
+        event.add('minecraft:enchantable/durability', hoe)
+
+        const allTools = [sword, pickaxe, shovel, axe, hoe]
+        event.add('c:tools', allTools)
+        event.add('minecraft:enchantable/vanishing', allTools)
+    })
+
     event.add('c:crabs', [
         'hybrid-aquatic:coconut_crab_claw',
         'hybrid-aquatic:dungeness_crab_claw',
@@ -63,6 +113,15 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'create_sa:rose_quartz_axe' })
     event.remove({ output: 'create_sa:rose_quartz_pickaxe' })
     event.remove({ output: 'create_sa:rose_quartz_shovel' })
+    event.remove({ output: 'create_sa:medium_fueling_tank' })   //bugged recipe
+    event.remove({ output: 'create_sa:large_fueling_tank' })    //bugged recipe
+	event.remove({ output: 'create_sa:medium_filling_tank' })   //for consistency
+    event.remove({ output: 'create_sa:large_filling_tank' })    //for consistency
+    event.remove({ output: 'create_sa:grapplin_whisk' })        //bugged item
+
+    event.remove({ output: 'create_connected:fan_seething_catalyst' }) //op -> creative item
+    
+    event.remove({ output: 'petrolsparts:pneumatic_tube' })     //bugged item
 
     event.remove({ output: 'simulated:rope_coupling' })
 
@@ -94,6 +153,33 @@ ServerEvents.recipes(event => {
         'create:polished_rose_quartz',                
         'minecraft:golden_shovel', 
         'create:polished_rose_quartz'
+    )
+	
+	event.smithing(
+		'create_sa:medium_fueling_tank', 
+		'create:sturdy_sheet',                
+		'create_sa:small_fueling_tank', 
+		'create:sturdy_sheet'
+    )
+
+    event.smithing(
+        'create_sa:large_fueling_tank', 
+        'create:copper_sheet',               
+        'create_sa:medium_fueling_tank', 
+        'create:copper_sheet'
+    )
+	event.smithing(
+		'create_sa:medium_filling_tank', 
+		'create:copper_sheet',                
+		'create_sa:small_filling_tank', 
+		'create:copper_sheet'
+    )
+
+    event.smithing(
+        'create_sa:large_filling_tank', 
+        'create:copper_sheet',               
+        'create_sa:medium_filling_tank', 
+        'create:copper_sheet'
     )
 
     event.recipes.farmersdelight.cutting(
@@ -346,41 +432,6 @@ MoreJS.villagerTrades(event => {
 
 ServerEvents.tags('enchantment', event => {
 
-    const block_enchanting = [
-        'minecraft:breach',
-        'minecraft:protection',
-        'minecraft:cleaving',
-        'minecraft:power',
-        'minecraft:sharpness',
-        //'minecraft:sweeping_edge'
-        'enchantencore:swift_slash',
-        'enchantencore:sonic',
-        'enchantencore:regrowth',
-        'enchantencore:swift_slash',
-    ]
-
-    // non treasure was esential to remove/add since in_enchanting_table uses it.... bruh
-    block_enchanting.forEach(ench => {
-        event.remove('minecraft:in_enchanting_table', ench)
-        event.remove('minecraft:non_treasure', ench)
-        event.remove('minecraft:on_random_loot', ench)
-        event.remove('minecraft:tradeable', ench)
-    })
-
-    const remove_enchanting = [
-        'minecraft:efficiency',
-        'minecraft:mending',
-        'minecraft:fortune',
-        'minecraft:looting',
-        'minecraft:unbreaking',
-        'soulbound:soulbound'
-    ]
-
-    remove_enchanting.forEach(ench => {
-        event.remove('minecraft:in_enchanting_table', ench)
-        event.remove('minecraft:non_treasure', ench)
-    })
-
     const allow_enchanting = [
         'minecraft:vanishing_curse',
         'minecraft:binding_curse',
@@ -396,6 +447,8 @@ ServerEvents.tags('enchantment', event => {
         'enchantencore:death_curse',
         'enchantencore:breeze_curse',
         'enchantencore:crank_curse',
+        'enchantencore:crab_claw',
+        ''
     ]
 
     allow_enchanting.forEach(ench => {
@@ -403,4 +456,10 @@ ServerEvents.tags('enchantment', event => {
         event.add('minecraft:non_treasure', ench)
         event.remove('minecraft:treasure', ench)
     })
+})
+
+RecipeViewerEvents.removeEntriesCompletely('item', event => {
+    event.remove('create_sa:grapplin_whisk')
+    event.remove('petrolsparts:pneumatic_tube')
+    event.remove('create_connected:fan_seething_catalyst')
 })
