@@ -2031,6 +2031,21 @@
       "fileSize": 95561784
     },
     {
+      "path": "mods/kubejsable-1.1.0.jar",
+      "hashes": {
+        "sha512": "5c92e42887781f6d5db5520a6d74c63de44e496dc01079244419778fe1ff0edc34393357dcede85e852a51461cf2f92a1cc03789d871c4675aa0b86b58258c3d",
+        "sha1": "389ce9c541ace0130aa9f62044784f09c5335e7d"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/aH1sOU2k/versions/jxjUAAAq/kubejsable-1.1.0.jar"
+      ],
+      "fileSize": 92585
+    },
+    {
       "path": "mods/cavespiderspawn-1.21.1-1.2.jar",
       "hashes": {
         "sha1": "f891802e0c21e31dec4b5344913a2303a5decbeb",
