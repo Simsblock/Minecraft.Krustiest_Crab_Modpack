@@ -63,6 +63,13 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'create_sa:rose_quartz_axe' })
     event.remove({ output: 'create_sa:rose_quartz_pickaxe' })
     event.remove({ output: 'create_sa:rose_quartz_shovel' })
+    event.remove({ output: 'create_sa:medium_fueling_tank' })   //bugged recipe
+    event.remove({ output: 'create_sa:large_fueling_tank' })    //bugged recipe
+	event.remove({ output: 'create_sa:medium_filling_tank' })   //for consistency
+    event.remove({ output: 'create_sa:large_filling_tank' })    //for consistency
+    event.remove({ output: 'create_sa:grapplin_whisk' })        //bugged item
+    
+    event.remove({ output: 'petrolsparts:pneumatic_tube' })     //bugged item
 
     event.remove({ output: 'simulated:rope_coupling' })
 
@@ -94,6 +101,33 @@ ServerEvents.recipes(event => {
         'create:polished_rose_quartz',                
         'minecraft:golden_shovel', 
         'create:polished_rose_quartz'
+    )
+	
+	event.smithing(
+		'create_sa:medium_fueling_tank', 
+		'create:sturdy_sheet',                
+		'create_sa:small_fueling_tank', 
+		'create:sturdy_sheet'
+    )
+
+    event.smithing(
+        'create_sa:large_fueling_tank', 
+        'create:copper_sheet',               
+        'create_sa:medium_fueling_tank', 
+        'create:copper_sheet'
+    )
+	event.smithing(
+		'create_sa:medium_filling_tank', 
+		'create:copper_sheet',                
+		'create_sa:small_filling_tank', 
+		'create:copper_sheet'
+    )
+
+    event.smithing(
+        'create_sa:large_filling_tank', 
+        'create:copper_sheet',               
+        'create_sa:medium_filling_tank', 
+        'create:copper_sheet'
     )
 
     event.recipes.farmersdelight.cutting(
