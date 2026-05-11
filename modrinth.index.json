@@ -1686,21 +1686,6 @@
       "fileSize": 51371
     },
     {
-      "path": "mods/emixx-neoforge-1.2.3.jar",
-      "hashes": {
-        "sha1": "5bfd6ca144cd6cf72c6df9a9ab400403ca774e79",
-        "sha512": "15eb94d5c2be00f06a96a45a68fc2fe3171f60c87c26d2ebf4ef359271f8b0ee3995f281af17e2b228ab543770ec2d8b486c98f0fe4b511c168a4c0c0e30db40"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/AWMWYMwC/versions/sdRUQHCL/emixx-neoforge-1.2.3.jar"
-      ],
-      "fileSize": 207208
-    },
-    {
       "path": "mods/watut-neoforge-1.21.0-1.2.7.jar",
       "hashes": {
         "sha512": "b96bd6146344a86e4ad45fd4c274a15f0e146bcc13747940f8b9f0ea21c8ea8bca4d005444f2bf8082f29ec7ad1ce03507764ddfbdda64ac9284d8ac400b44c5",
