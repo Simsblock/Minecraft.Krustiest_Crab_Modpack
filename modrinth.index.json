@@ -4026,6 +4026,21 @@
       "fileSize": 825875
     },
     {
+      "path": "mods/create-aeronautics-lift-patch-1.1.0.jar",
+      "hashes": {
+        "sha1": "1baa3312d1b29414dd41a77ed5c665bbbd63cf44",
+        "sha512": "149484359f8fef802cb9e7796167d1e0e8a328cbed1d66f0fe3b5fedae420f2dbbbe0430675d192bd23adf2fbc613be5a590e1d2c6c223589403d63e32fe5524"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/wEWnF0xx/versions/b5GqYXEI/create-aeronautics-lift-patch-1.1.0.jar"
+      ],
+      "fileSize": 6360
+    },
+    {
       "path": "mods/ears-neoforge-1.21-1.4.7.jar",
       "hashes": {
         "sha512": "52fc315373bd014fd388c970c17bbd6873593e169841edb8d346bbf176401a527a65f074f1ddf28ebcb87cd5c469aadf64b3f99700f7112c1e0966b42920c7d8",
