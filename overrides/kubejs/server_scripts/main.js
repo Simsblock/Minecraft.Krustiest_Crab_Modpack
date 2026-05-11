@@ -118,7 +118,7 @@ ServerEvents.recipes(event => {
 	event.remove({ output: 'create_sa:medium_filling_tank' })   //for consistency
     event.remove({ output: 'create_sa:large_filling_tank' })    //for consistency
     event.remove({ output: 'create_sa:grapplin_whisk' })        //bugged item
-    
+
     event.remove({ output: 'create_connected:fan_seething_catalyst' }) //op -> creative item
     
     event.remove({ output: 'petrolsparts:pneumatic_tube' })     //bugged item
@@ -488,4 +488,9 @@ ServerEvents.tags('enchantment', event => {
         event.add('minecraft:non_treasure', ench)
         event.remove('minecraft:treasure', ench)
     })
+})
+
+RecipeViewerEvents.removeEntriesCompletely('item', event => {
+    event.remove('create_sa:grapplin_whisk')
+    event.remove('petrolsparts:pneumatic_tube')
 })
