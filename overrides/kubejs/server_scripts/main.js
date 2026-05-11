@@ -346,26 +346,25 @@ MoreJS.villagerTrades(event => {
 
 ServerEvents.tags('enchantment', event => {
 
-    const block_enchanting = [
-        'minecraft:breach',
-        'minecraft:protection',
-        'minecraft:cleaving',
-        'minecraft:power',
-        'minecraft:sharpness',
-        //'minecraft:sweeping_edge'
-        'enchantencore:swift_slash',
-        'enchantencore:sonic',
-        'enchantencore:regrowth',
-        'enchantencore:swift_slash',
-    ]
+    //const block_enchanting = [
+    //    'minecraft:breach',
+    //    'minecraft:protection',
+    //    'minecraft:cleaving',
+    //    'minecraft:power',
+    //    'minecraft:sharpness',
+    //    //'minecraft:sweeping_edge'
+    //    'enchantencore:swift_slash',
+    //    'enchantencore:sonic',
+    //    'enchantencore:regrowth',
+    //]
 
     // non treasure was esential to remove/add since in_enchanting_table uses it.... bruh
-    block_enchanting.forEach(ench => {
-        event.remove('minecraft:in_enchanting_table', ench)
-        event.remove('minecraft:non_treasure', ench)
-        event.remove('minecraft:on_random_loot', ench)
-        event.remove('minecraft:tradeable', ench)
-    })
+    //block_enchanting.forEach(ench => {
+    //    event.remove('minecraft:in_enchanting_table', ench)
+    //    event.remove('minecraft:non_treasure', ench)
+    //    event.remove('minecraft:on_random_loot', ench)
+    //    event.remove('minecraft:tradeable', ench)
+    //})
 
     const remove_enchanting = [
         'minecraft:efficiency',
