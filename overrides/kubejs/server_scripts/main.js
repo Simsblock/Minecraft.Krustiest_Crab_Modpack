@@ -1,5 +1,55 @@
 ServerEvents.tags('item', event => {
-    event.add('c:dough', ['farmersdelight:wheat_dough', 'create:dough'])
+
+	const materials = ['steel', 'aluminum', 'lead']
+    
+    materials.forEach(mat => {
+        const sword = `tfmg:${mat}_sword`
+        const pickaxe = `tfmg:${mat}_pickaxe`
+        const shovel = `tfmg:${mat}_shovel`
+        const axe = `tfmg:${mat}_axe`
+        const hoe = `tfmg:${mat}_hoe`
+
+        event.add('minecraft:swords', sword)
+        event.add('c:tools/swords', sword)
+        event.add('c:tools/melee_weapon', sword)
+        event.add('minecraft:enchantable/sword', sword)
+        event.add('minecraft:enchantable/weapon', sword)
+        event.add('minecraft:enchantable/sharp_weapon', sword)
+        event.add('minecraft:enchantable/fire_aspect', sword)
+        event.add('minecraft:enchantable/durability', sword)
+
+        event.add('minecraft:pickaxes', pickaxe)
+        event.add('c:tools/pickaxes', pickaxe)
+        event.add('c:tools/mining_tool', pickaxe)
+        event.add('minecraft:enchantable/mining', pickaxe)
+        event.add('minecraft:enchantable/mining_loot', pickaxe)
+        event.add('minecraft:enchantable/durability', pickaxe)
+        event.add('minecraft:enchantable/vanishing', pickaxe)
+
+        event.add('minecraft:shovels', shovel)
+        event.add('c:tools/shovels', shovel)
+        event.add('c:tools/mining_tool', shovel)
+        event.add('minecraft:enchantable/mining', shovel)
+        event.add('minecraft:enchantable/durability', shovel)
+
+        event.add('minecraft:axes', axe)
+        event.add('c:tools/axes', axe)
+        event.add('c:tools/mining_tool', axe)
+        event.add('c:tools/melee_weapon', axe)
+        event.add('minecraft:enchantable/mining', axe)
+        event.add('minecraft:enchantable/sharp_weapon', axe)
+        event.add('minecraft:enchantable/durability', axe)
+
+        event.add('minecraft:hoes', hoe)
+        event.add('c:tools/hoes', hoe)
+        event.add('minecraft:enchantable/mining', hoe)
+        event.add('minecraft:enchantable/durability', hoe)
+
+        const allTools = [sword, pickaxe, shovel, axe, hoe]
+        event.add('c:tools', allTools)
+        event.add('minecraft:enchantable/vanishing', allTools)
+    })
+
     event.add('c:crabs', [
         'hybrid-aquatic:coconut_crab_claw',
         'hybrid-aquatic:dungeness_crab_claw',
@@ -68,6 +118,8 @@ ServerEvents.recipes(event => {
 	event.remove({ output: 'create_sa:medium_filling_tank' })   //for consistency
     event.remove({ output: 'create_sa:large_filling_tank' })    //for consistency
     event.remove({ output: 'create_sa:grapplin_whisk' })        //bugged item
+    
+    event.remove({ output: 'create_connected:fan_seething_catalyst' }) //op -> creative item
     
     event.remove({ output: 'petrolsparts:pneumatic_tube' })     //bugged item
 
