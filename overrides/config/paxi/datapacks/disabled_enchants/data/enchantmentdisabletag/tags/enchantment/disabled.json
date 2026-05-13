@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sharpness",
+    "minecraft:breach",
+    "minecraft:protection",
+    "minecraft:cleaving",
+    "minecraft:power",
+    "enchantencore:sonic",
+    "enchantencore:regrowth"
+  ]
+}
