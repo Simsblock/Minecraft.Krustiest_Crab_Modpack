@@ -54,8 +54,8 @@ ServerEvents.tags('item', event => {
     })
 
     woodTypes.forEach(type => {
-        const chest = `tfmg:${type}_chest`;
-        const trappedChest = `tfmg:trapped_${type}_chest`;
+        const chest = `woodworks:${type}_chest`;
+        const trappedChest = `woodworks:trapped_${type}_chest`;
         
         event.add('create:chest_mounted_storage', chest)
         event.add('create:chest_mounted_storage', trappedChest)
