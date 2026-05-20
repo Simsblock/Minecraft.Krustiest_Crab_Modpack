@@ -1,6 +1,9 @@
+// TAGS
+
 ServerEvents.tags('item', event => {
 
 	const materials = ['steel', 'aluminum', 'lead']
+    const woodTypes = ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak', 'mangrove', 'cherry'];
     
     materials.forEach(mat => {
         const sword = `tfmg:${mat}_sword`
@@ -50,6 +53,14 @@ ServerEvents.tags('item', event => {
         event.add('minecraft:enchantable/vanishing', allTools)
     })
 
+    woodTypes.forEach(type => {
+        const chest = `tfmg:${type}_chest`;
+        const trappedChest = `tfmg:trapped_${type}_chest`;
+        
+        event.add('create:chest_mounted_storage', chest)
+        event.add('create:chest_mounted_storage', trappedChest)
+    });
+
     event.add('c:crabs', [
         'hybrid-aquatic:coconut_crab_claw',
         'hybrid-aquatic:dungeness_crab_claw',
@@ -90,6 +101,8 @@ ServerEvents.tags('item', event => {
         'create_aquatic_ambitions:spiky_shell',
     ])
 })
+
+// RECIPES
 
 ServerEvents.recipes(event => {
 
@@ -371,6 +384,8 @@ ServerEvents.recipes(event => {
     })
 })
 
+// TRADES
+
 // wiki cuz modrinth modpage got wrong wiki: https://docs.almostreliable.com/morejs/
 MoreJS.villagerTrades(event => {
     
@@ -404,62 +419,73 @@ MoreJS.villagerTrades(event => {
         "minecraft:librarian", 
         5, 
         [Item.of("minecraft:diamond", 10), Item.of("minecraft:shield")],
-        Item.of('minecraft:book').enchant('minecraft:unbreaking', 3)
+        Item.of('minecraft:enchanted_book').enchant('minecraft:unbreaking', 3)
     );
 
     event.addTrade(
         "minecraft:librarian", 
         5,
         [Item.of("minecraft:clock", 3), Item.of("minecraft:blaze_rod", 5)], 
-        Item.of('minecraft:book').enchant('minecraft:efficiency', 5)
+        Item.of('minecraft:enchanted_book').enchant('minecraft:efficiency', 5)
     );
 
     event.addTrade(
         "minecraft:librarian", 
         5,
         [Item.of("minecraft:experience_bottle", 5), Item.of("create:rose_quartz", 5)], 
-        Item.of('minecraft:book').enchant('minecraft:mending', 1)
+        Item.of('minecraft:enchanted_book').enchant('minecraft:mending', 1)
     );
 
     event.addTrade(
         "minecraft:librarian", 
         5,
         [Item.of("minecraft:recovery_compass", 1), Item.of("minecraft:ancient_debris", 1)], 
-        Item.of('minecraft:book').enchant('soulbound:soulbound', 1)
+        Item.of('minecraft:enchanted_book').enchant('soulbound:soulbound', 1)
     );
 
 });
-
-ServerEvents.tags('enchantment', event => {
-
-    const allow_enchanting = [
-        'minecraft:vanishing_curse',
-        'minecraft:binding_curse',
-        'minecraft:wind_burst',
-        'enchantencore:ownership_curse',
-        'enchantencore:caravan_curse',
-        'enchantencore:undying_curse',
-        'enchantencore:hiding_curse',
-        'enchantencore:reach_curse',
-        'enchantencore:fragility_curse',
-        'enchantencore:welfare_curse',
-        'enchantencore:randomness_curse',
-        'enchantencore:death_curse',
-        'enchantencore:breeze_curse',
-        'enchantencore:crank_curse',
-        'enchantencore:crab_claw',
-        ''
-    ]
-
-    allow_enchanting.forEach(ench => {
-        event.add('minecraft:in_enchanting_table', ench)
-        event.add('minecraft:non_treasure', ench)
-        event.remove('minecraft:treasure', ench)
-    })
-})
 
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
     event.remove('create_sa:grapplin_whisk')
     event.remove('petrolsparts:pneumatic_tube')
     event.remove('create_connected:fan_seething_catalyst')
 })
+
+// ENCHANTS
+
+const ALLOW_ENCHANTING = [
+	// Vanilla
+	'minecraft:vanishing_curse',
+	'minecraft:binding_curse',
+	'minecraft:wind_burst',
+	
+	// Encore
+	'enchantencore:ownership_curse',
+	'enchantencore:caravan_curse',
+	'enchantencore:undying_curse',
+	'enchantencore:hiding_curse',
+	'enchantencore:reach_curse',
+	'enchantencore:fragility_curse',
+	'enchantencore:welfare_curse',
+	'enchantencore:randomness_curse',
+	'enchantencore:death_curse',
+	'enchantencore:breeze_curse',
+	'enchantencore:crank_curse',
+]
+
+const TABLE_TAGS = [
+    'minecraft:in_enchanting_table',
+    'minecraft:non_treasure',
+];
+
+const REMOVE_FROM = [
+    'minecraft:treasure',
+    'minecraft:double_trade_price',
+];
+
+ServerEvents.tags('enchantment', event => {
+    ALLOW_ENCHANTING.forEach(ench => {
+        TABLE_TAGS.forEach(tag => event.add(tag, ench));
+        REMOVE_FROM.forEach(tag => event.remove(tag, ench));
+    });
+});
