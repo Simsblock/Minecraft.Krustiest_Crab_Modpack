@@ -26,6 +26,13 @@ The Sources, Authors and Licenses are listed bellow aswell.
 **Author:** https://www.curseforge.com/members/tyler2269 \
 **License:** MIT
 
+## kissmod-1.2.0-fix.jar
+
+**Source:** [This is a modified version due to an issue.](https://github.com/jiazengp/kiss-fabric/issues/3) \
+**Download-Source:** https://modrinth.com/mod/kiss-fabric/version/plUmdfHo \
+**Author:** https://modrinth.com/user/Hyouka \
+**License:** MIT
+
 # Licenses
 ## LGPL-2.1 license
 
