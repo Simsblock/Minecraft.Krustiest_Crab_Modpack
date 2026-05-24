@@ -1,0 +1,16 @@
+[
+  {
+    "matchItems": [
+      "createbigcannons:cast_iron_ingot",
+      "tfmg:cast_iron_ingot"
+    ],
+    "resultItems": "createbigcannons:cast_iron_ingot"
+  },
+  {
+    "matchItems": [
+      "createbigcannons:cast_iron_nugget",
+      "tfmg:cast_iron_nugget"
+    ],
+    "resultItems": "createbigcannons:cast_iron_nugget"
+  }
+]

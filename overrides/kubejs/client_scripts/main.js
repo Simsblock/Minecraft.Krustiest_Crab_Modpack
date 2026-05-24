@@ -3,7 +3,6 @@ RecipeViewerEvents.removeEntries('item', event => {
         'minecraft:breach',
         'minecraft:protection',
         'minecraft:cleaving',
-        'minecraft:power',
         'minecraft:sharpness',
         'enchantencore:sonic',
         'enchantencore:regrowth',
