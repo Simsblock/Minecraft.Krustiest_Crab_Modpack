@@ -11,16 +11,8 @@
     "matchItems": [
       "createbigcannons:steel_nugget",
       "createmetallurgy:steel_nugget",
-      "tfmg:steel_ingot"
+      "tfmg:steel_nugget"
     ],
     "resultItems": "tfmg:steel_nugget"
-  },
-  {
-    "matchItems": [
-      "createbigcannons:molten_steel",
-      "createmetallurgy:molten_steel",
-      "tfmg:molten_steel"
-    ],
-    "resultItems": "createmetallurgy:molten_steel"
   }
 ]
