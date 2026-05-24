@@ -1,1 +1,0 @@
-<recipetype:createbigcannons:melting>.removeAll();

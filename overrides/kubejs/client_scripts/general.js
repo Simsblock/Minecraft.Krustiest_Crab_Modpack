@@ -2,6 +2,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     
     const itemsToRemove = [
         "createmetallurgy:tungsten_dust",
+        "createmetallurgy:tungsten_wire",
         "createmetallurgy:gold_dust",
         "createmetallurgy:iron_dust",
         "createmetallurgy:copper_dust",
@@ -38,6 +39,8 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         "createmetallurgy:molten_void_steel_bucket",
         "createmetallurgy:molten_necromium_bucket",
         "createbigcannons:basin_foundry_lid",
+        "createaddon:mechanical_sieve",
+        "createaddon:big_mechanical_press",
     ];
 
     itemsToRemove.forEach(item => {

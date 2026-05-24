@@ -160,7 +160,11 @@
     "createmetallurgy:tungsten_wire_spool",
     "create_blaze_burner_fuels:coke_coal",
     "create_blaze_burner_fuels:refined_coke_coal",
-    "createbigcannons:basin_foundry_lid"
+    "createbigcannons:basin_foundry_lid",
+    "createaddon:measuring_cylinder",
+    "createaddon:beaker",
+    "createaddon:mechanical_sieve",
+    "createaddon:big_mechanical_press",
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

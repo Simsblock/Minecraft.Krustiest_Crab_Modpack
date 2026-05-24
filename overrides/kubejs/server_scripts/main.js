@@ -127,6 +127,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'create_sa:rose_quartz_pickaxe' })
     event.remove({ output: 'create_sa:rose_quartz_shovel' })
 
+    event.remove({ output: 'tfmg:pipe_bomb' })
+
     event.remove({ output: 'create_connected:fan_seething_catalyst' }) //op -> creative item
     
     event.remove({ output: 'petrolsparts:pneumatic_tube' })     //bugged item
