@@ -224,7 +224,7 @@ ServerEvents.recipes(event => {
     event.recipes.createmetallurgy
         .casting_in_table("tfmg:cast_iron_sheet", [
         Fluid.of("createbigcannons:molten_cast_iron", 90),
-        "createmetallurgy:graphite_sheet_mold",
+        "createmetallurgy:graphite_plate_mold",
         ])
         .processingTime(100);
     event.recipes.createmetallurgy
@@ -282,15 +282,11 @@ ServerEvents.recipes(event => {
     event.recipes.createmetallurgy.melting(
         Fluid.of("createbigcannons:molten_nethersteel", 90), "createbigcannons:nethersteel_ingot")
         .processingTime(80)
-        .heated();
-    event.recipes.createmetallurgy.melting(
-        Fluid.of("createbigcannons:molten_nethersteel", 90), "createbigcannons:nethersteel_sheet")
-        .processingTime(80)
-        .heated();
+        .superheated();
     event.recipes.createmetallurgy.melting(
         Fluid.of("createbigcannons:molten_nethersteel", 10), "createbigcannons:nethersteel_nugget")
         .processingTime(80)
-        .heated();
+        .superheated();
     event.recipes.createmetallurgy
         .bulk_melting(
         Fluid.of("createbigcannons:molten_nethersteel", 810),
@@ -299,12 +295,12 @@ ServerEvents.recipes(event => {
         .processingTime(250)
         .set("minHeatRequirement", 15)
         .set("maxHeatRequirement", 50);
-    event.recipes.createmetallurgy
+	event.recipes.createmetallurgy
         .alloying(Fluid.of("createbigcannons:molten_nethersteel", 720), [
         Fluid.of("createbigcannons:molten_cast_iron", 720),
         Item.of("minecraft:netherite_scrap", 1),
         ])
-        .heated();
+        .superheated();
     event.recipes.createmetallurgy
         .casting_in_table("createbigcannons:nethersteel_ingot", [
         Fluid.of("createbigcannons:molten_nethersteel", 90),
