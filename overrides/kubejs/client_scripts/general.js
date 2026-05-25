@@ -41,7 +41,12 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         "createbigcannons:basin_foundry_lid",
         "createaddon:mechanical_sieve",
         "createaddon:big_mechanical_press",
-        "tfmg:pipe_bomb"
+        "tfmg:pipe_bomb",
+        "createbb:match",
+        "createbb:sudafed",
+        "createbb:sudafed_box",
+        "createbb:aluminosilicate_chunk",
+        "createbb:aluminosilicate_bit",
     ];
 
     itemsToRemove.forEach(item => {
