@@ -1,9 +1,0 @@
-[
-  {
-    "matchFluid": [
-      "createbb:hydrogen",
-      "tfmg:hydrogen"
-    ],
-    "resultFluid": "tfmg:hydrogen"
-  }
-]
