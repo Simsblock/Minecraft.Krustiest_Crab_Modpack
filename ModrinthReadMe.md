@@ -1,11 +1,3 @@
-# Krustiest Crab!
-This is the Github Repository of the Krustiest Crab! Modpack!
-
-Also see:
-
-- Wiki
-- Modrinth
-
 # Woah a crab?!
 You may call it a kitchen sink, I call it an open-ended experience guided by the incredible [Pastel](https://modrinth.com/mod/pastel-mod) mod, accompanied by casual Vanilla+, farming and the rapid [Industrialization](https://modrinth.com/mod/create-tfmg) of the cubic planet!
 

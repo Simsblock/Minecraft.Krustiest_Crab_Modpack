@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+        "dndesires:asphalt",
+        "tfmg:asphalt"
+    ],
+    "resultItems": "tfmg:asphalt"
+  }
+]

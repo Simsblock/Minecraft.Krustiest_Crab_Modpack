@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.20",
-  "config_datetime": "2026-03-26_23-04-14",
+  "config_datetime": "2026-04-06_21-05-22",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -8,6 +8,526 @@
     "global_spacing_and_separation_modifier": 1.0
   },
   "structure_namespaces": [],
-  "structures": [],
-  "structure_sets": []
+  "structures": [
+    {
+      "name": "minecraft:desert_pyramid",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "minecraft:jungle_pyramid",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "minecraft:mineshaft",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "minecraft:mineshaft_mesa",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "minecraft:ocean_ruin_cold",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "minecraft:ocean_ruin_warm",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "minecraft:ruined_portal",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "minecraft:ruined_portal_desert",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "minecraft:ruined_portal_jungle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "minecraft:ruined_portal_mountain",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "minecraft:ruined_portal_nether",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "minecraft:ruined_portal_ocean",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "minecraft:ruined_portal_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "minecraft:stronghold",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "bury"
+    },
+    {
+      "name": "minecraft:swamp_hut",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "create_easy_structures:windmill",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    }
+  ],
+  "structure_sets": [
+    {
+      "spacing": 60,
+      "separation": 25,
+      "name": "create_easy_structures:big_1",
+      "is_disabled": false,
+      "salt": 878977526,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:big_1": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 25,
+      "name": "create_easy_structures:big_2",
+      "is_disabled": false,
+      "salt": 878785151,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:big_2": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 25,
+      "name": "create_easy_structures:camp_1",
+      "is_disabled": false,
+      "salt": 541139603,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:camp_1": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 25,
+      "name": "create_easy_structures:camp_2",
+      "is_disabled": false,
+      "salt": 540177731,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:camp_2": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 25,
+      "name": "create_easy_structures:camp_3",
+      "is_disabled": false,
+      "salt": 539985357,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:camp_3": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 25,
+      "name": "create_easy_structures:camp_4",
+      "is_disabled": false,
+      "salt": 540562480,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:camp_4": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 25,
+      "name": "create_easy_structures:camp_5",
+      "is_disabled": false,
+      "salt": 540370106,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:camp_5": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 25,
+      "name": "create_easy_structures:factory_1",
+      "is_disabled": false,
+      "salt": 991993825,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:factory_1": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 25,
+      "name": "create_easy_structures:factory_2",
+      "is_disabled": false,
+      "salt": 991801451,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:factory_2": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 25,
+      "name": "create_easy_structures:foresttracks",
+      "is_disabled": false,
+      "salt": 1204635669,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:foresttracks": 1
+      }
+    },
+    {
+      "spacing": 50,
+      "separation": 25,
+      "name": "create_easy_structures:freight_station",
+      "is_disabled": false,
+      "salt": 1354297359,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:freight_station": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 25,
+      "name": "create_easy_structures:house_2",
+      "is_disabled": false,
+      "salt": 1601847478,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:house_2": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 25,
+      "name": "create_easy_structures:house_3",
+      "is_disabled": false,
+      "salt": 1600885606,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:house_3": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 25,
+      "name": "create_easy_structures:house_4",
+      "is_disabled": false,
+      "salt": 1600693231,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:house_4": 1
+      }
+    },
+    {
+      "spacing": 50,
+      "separation": 15,
+      "name": "create_easy_structures:undergroundtrain",
+      "is_disabled": false,
+      "salt": 1719461658,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:undergroundtrain": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 15,
+      "name": "create_easy_structures:windmill",
+      "is_disabled": false,
+      "salt": 353987075,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_easy_structures:windmill": 1
+      }
+    },
+    {
+      "spacing": 34,
+      "separation": 8,
+      "name": "joshie:village_ocean",
+      "is_disabled": false,
+      "salt": 10387312,
+      "frequency": 0.5,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "joshie:village_ocean": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "minecraft:desert_pyramids",
+      "is_disabled": true,
+      "salt": 14357617,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:desert_pyramid": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "minecraft:jungle_temples",
+      "is_disabled": true,
+      "salt": 14357619,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:jungle_pyramid": 1
+      }
+    },
+    {
+      "name": "minecraft:mineshafts",
+      "is_disabled": true,
+      "salt": 0,
+      "frequency": 0.004,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:mineshaft": 1,
+        "minecraft:mineshaft_mesa": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 5,
+      "name": "minecraft:ocean_monuments",
+      "is_disabled": true,
+      "salt": 10387313,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:monument": 1
+      }
+    },
+    {
+      "spacing": 19,
+      "separation": 6,
+      "name": "minecraft:ocean_ruins",
+      "is_disabled": true,
+      "salt": 14357621,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:ocean_ruin_warm": 1,
+        "minecraft:ocean_ruin_cold": 1
+      }
+    },
+    {
+      "spacing": 40,
+      "separation": 15,
+      "name": "minecraft:ruined_portals",
+      "is_disabled": true,
+      "salt": 34222645,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:ruined_portal": 1,
+        "minecraft:ruined_portal_nether": 1,
+        "minecraft:ruined_portal_swamp": 1,
+        "minecraft:ruined_portal_mountain": 1,
+        "minecraft:ruined_portal_jungle": 1,
+        "minecraft:ruined_portal_ocean": 1,
+        "minecraft:ruined_portal_desert": 1
+      }
+    },
+    {
+      "name": "minecraft:strongholds",
+      "is_disabled": true,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:stronghold": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "minecraft:swamp_huts",
+      "is_disabled": true,
+      "salt": 14357620,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:swamp_hut": 1
+      }
+    },
+    {
+      "spacing": 34,
+      "separation": 8,
+      "name": "minecraft:villages",
+      "is_disabled": false,
+      "salt": 10387312,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:village_snowy": 1,
+        "minecraft:village_plains": 1,
+        "minecraft:village_taiga": 1,
+        "minecraft:village_savanna": 1,
+        "minecraft:village_desert": 1
+      }
+    },
+    {
+      "spacing": 80,
+      "separation": 20,
+      "name": "minecraft:woodland_mansions",
+      "is_disabled": true,
+      "salt": 10387319,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:mansion": 1
+      }
+    },
+    {
+      "spacing": 28,
+      "separation": 16,
+      "name": "terralith:mage",
+      "is_disabled": false,
+      "salt": 2358902,
+      "frequency": 0.7,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "terralith:mage_tower_autumn": 1,
+        "terralith:mage_tower": 1,
+        "terralith:mage_tower_summer": 1,
+        "terralith:mage_complex": 1,
+        "terralith:mage_tower_winter": 1,
+        "terralith:mage_tower_spring": 1
+      }
+    },
+    {
+      "spacing": 36,
+      "separation": 28,
+      "name": "terralith:rare_dungeon",
+      "is_disabled": false,
+      "salt": 1368854222,
+      "frequency": 0.7,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "terralith:spire": 1
+      }
+    },
+    {
+      "spacing": 46,
+      "separation": 18,
+      "name": "terralith:rare_village",
+      "is_disabled": false,
+      "salt": 1798451114,
+      "frequency": 0.7,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "terralith:fortified_village": 1,
+        "terralith:fortified_desert_village": 1
+      }
+    },
+    {
+      "spacing": 27,
+      "separation": 15,
+      "name": "terralith:regular",
+      "is_disabled": false,
+      "salt": 2358902,
+      "frequency": 0.7,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "terralith:desert_outpost": 1,
+        "terralith:igloo": 1,
+        "terralith:valley_lodge": 1,
+        "terralith:witch_hut": 1,
+        "terralith:glacial_hut": 1
+      }
+    }
+  ]
 }

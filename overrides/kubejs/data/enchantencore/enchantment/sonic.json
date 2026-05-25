@@ -1,0 +1,12 @@
+{
+  "description": { "translate": "enchantment.disabled" },
+  "supported_items": "#kubejs:empty",
+  "primary_items": "#kubejs:empty",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": { "base": 99999, "per_level_above_first": 99999 },
+  "max_cost": { "base": 99999, "per_level_above_first": 99999 },
+  "anvil_cost": 99999,
+  "slots": [],
+  "effects": {}
+}
