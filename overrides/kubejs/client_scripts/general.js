@@ -41,6 +41,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         "createbigcannons:basin_foundry_lid",
         "createaddon:mechanical_sieve",
         "createaddon:big_mechanical_press",
+        "tfmg:pipe_bomb"
     ];
 
     itemsToRemove.forEach(item => {
@@ -63,5 +64,24 @@ RecipeViewerEvents.removeEntriesCompletely('fluid', event => {
 	
 	fluidsToRemove.forEach(fluid => {
         event.remove(Fluid.of(fluid));
+    });
+});
+
+
+RecipeViewerEvents.addEntries('fluid', event => {
+    const fluidsToAdd = [
+        "kubejs:molten_platinum",
+    ];
+    fluidsToAdd.forEach(fluid => {
+        event.add(fluid);
+    });
+});
+
+RecipeViewerEvents.addEntries('item', event => {
+    const itemsToAdd = [
+        "kubejs:molten_platinum_bucket"
+    ];
+    itemsToAdd.forEach(item => {
+        event.add(item);
     });
 });

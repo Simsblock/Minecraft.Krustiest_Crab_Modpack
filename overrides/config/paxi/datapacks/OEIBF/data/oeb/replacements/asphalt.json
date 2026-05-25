@@ -1,0 +1,9 @@
+[
+  {
+    "matchBlock": [
+        "dndesires:asphalt",
+        "tfmg:asphalt"
+    ],
+    "resultBlock": "tfmg:asphalt"
+  }
+]

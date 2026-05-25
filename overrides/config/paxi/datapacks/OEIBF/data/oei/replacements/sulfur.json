@@ -5,5 +5,12 @@
       "tfmg:sulfur_dust"
     ],
     "resultItems": "tfmg:sulfur_dust"
+  },
+    {
+    "matchItems": [
+      "minecraft:sulfur",
+      "tfmg:sulfur"
+    ],
+    "resultItems": "minecraft:sulfur"
   }
 ]

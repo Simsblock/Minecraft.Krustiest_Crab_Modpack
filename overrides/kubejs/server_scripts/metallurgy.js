@@ -195,6 +195,11 @@ ServerEvents.recipes(event => {
     .transitionalItem('createmetallurgy:incomplete_ladle_frame')
     .loops(1)
 	
+    event.shapeless('3x dustydecorations:pots_and_pans', [
+        '8x minecraft:coal',
+        'tfmg:fireclay_ball'
+    ])
+
     event.recipes.createmetallurgy.melting(
         Fluid.of("createbigcannons:molten_cast_iron", 90), "createbigcannons:cast_iron_ingot")
         .processingTime(80)
@@ -347,9 +352,84 @@ ServerEvents.recipes(event => {
         "createmetallurgy:graphite_nugget_mold",
         ])
         .processingTime(10);
-  event.recipes.createmetallurgy
+    event.recipes.createmetallurgy
     .casting_in_basin("tfmg:steel_block", [
       Fluid.of("tfmg:molten_steel", 810),
     ])
     .processingTime(200);
+
+    event.recipes.createmetallurgy.melting(
+        Fluid.of("kubejs:molten_platinum", 90), "createpropulsion:platinum_ingot")
+        .processingTime(80)
+        .heated();
+    event.recipes.createmetallurgy.melting(
+        Fluid.of("kubejs:molten_platinum", 10), "createpropulsion:platinum_nugget")
+        .processingTime(80)
+        .heated();
+    event.recipes.createmetallurgy.melting(
+        Fluid.of("kubejs:molten_platinum", 90), "createpropulsion:platinum_sheet")
+        .processingTime(80)
+        .heated();
+    event.recipes.createmetallurgy.melting(
+        [Fluid.of("kubejs:molten_platinum", 90),Fluid.of("tfmg:molten_slag", 45)], "createpropulsion:raw_platinum")
+        .processingTime(80)
+        .heated();
+    event.recipes.createmetallurgy.melting(
+        [Fluid.of("kubejs:molten_platinum", 90),Fluid.of("tfmg:molten_slag", 45)], "createpropulsion:crushed_raw_platinum")
+        .processingTime(80)
+        .heated();
+    event.recipes.createmetallurgy
+        .bulk_melting(
+        Fluid.of("kubejs:molten_platinum", 810),
+        "createpropulsion:platinum_block",
+        )
+        .processingTime(250)
+        .set("minHeatRequirement", 10)
+        .set("maxHeatRequirement", 50);
+    event.recipes.createmetallurgy
+        .bulk_melting(
+        Fluid.of("kubejs:molten_platinum", 810),
+        "createpropulsion:raw_platinum_block",
+        )
+        .processingTime(250)
+        .set("minHeatRequirement", 10)
+        .set("maxHeatRequirement", 50);
+    event.recipes.createmetallurgy
+        .casting_in_table("createpropulsion:platinum_ingot", [
+        Fluid.of("kubejs:molten_platinum", 90),
+        "createmetallurgy:graphite_ingot_mold",
+        ])
+        .processingTime(100);
+    event.recipes.createmetallurgy
+        .casting_in_table("createpropulsion:platinum_sheet", [
+        Fluid.of("kubejs:molten_platinum", 90),
+        "createmetallurgy:graphite_plate_mold",
+        ])
+        .processingTime(100);
+    event.recipes.createmetallurgy
+        .casting_in_table("createpropulsion:platinum_nugget", [
+        Fluid.of("kubejs:molten_platinum", 10),
+        "createmetallurgy:graphite_nugget_mold",
+        ])
+        .processingTime(10);
+    event.recipes.createmetallurgy
+        .casting_in_basin("createpropulsion:platinum_block", [
+        Fluid.of("kubejs:molten_platinum", 810),
+        ])
+        .processingTime(200);
+
+    event.recipes.createmetallurgy.melting(
+        [Fluid.of("createmetallurgy:molten_lithium", 90),Fluid.of("tfmg:molten_slag", 45)], "tfmg:crushed_raw_lithium")
+        .processingTime(80)
+        .heated();
+
+    event.recipes.createmetallurgy.melting(
+        Fluid.of("createmetallurgy:molten_zinc", 10), "createbb:crushed_zinc")
+        .processingTime(80)
+        .heated();
+
+    event.recipes.createmetallurgy.melting(
+        Fluid.of("createmetallurgy:molten_copper", 10), "createbb:crushed_copper")
+        .processingTime(80)
+        .heated();
 });
