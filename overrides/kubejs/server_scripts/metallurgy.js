@@ -432,4 +432,21 @@ ServerEvents.recipes(event => {
         Fluid.of("createmetallurgy:molten_copper", 10), "createbb:crushed_copper")
         .processingTime(80)
         .heated();
+
+    event.recipes.createmetallurgy.melting(
+        Fluid.of("createmetallurgy:molten_iron", 10), "createdeco:industrial_iron_ingot")
+        .processingTime(80)
+        .heated();
+    event.recipes.createmetallurgy.melting(
+        Fluid.of("createmetallurgy:molten_iron", 1), "createdeco:industrial_iron_nugget")
+        .processingTime(80)
+        .heated();
+    event.recipes.createmetallurgy
+        .bulk_melting(
+        Fluid.of("createmetallurgy:molten_iron", 90),
+        "create:industrial_iron_block",
+        )
+        .processingTime(250)
+        .set("minHeatRequirement", 5)
+        .set("maxHeatRequirement", 50);
 });
