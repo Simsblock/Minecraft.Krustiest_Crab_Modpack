@@ -375,7 +375,7 @@ ServerEvents.recipes(event => {
         .processingTime(80)
         .heated();
     event.recipes.createmetallurgy.melting(
-        [Fluid.of("kubejs:molten_platinum", 90),Fluid.of("tfmg:molten_slag", 45)], "createpropulsion:crushed_raw_platinum")
+        [Fluid.of("kubejs:molten_platinum", 90),Fluid.of("tfmg:molten_slag", 45)], "create:crushed_raw_platinum")
         .processingTime(80)
         .heated();
     event.recipes.createmetallurgy

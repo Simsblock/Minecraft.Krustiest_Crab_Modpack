@@ -64,29 +64,9 @@ RecipeViewerEvents.removeEntriesCompletely('fluid', event => {
         "createmetallurgy:molten_osmium",
         "createmetallurgy:molten_silver",
         "createmetallurgy:molten_tin",
-        "createbigcannons:molten_steel",
     ];
 	
 	fluidsToRemove.forEach(fluid => {
         event.remove(Fluid.of(fluid));
-    });
-});
-
-
-RecipeViewerEvents.addEntries('fluid', event => {
-    const fluidsToAdd = [
-        "kubejs:molten_platinum",
-    ];
-    fluidsToAdd.forEach(fluid => {
-        event.add(fluid);
-    });
-});
-
-RecipeViewerEvents.addEntries('item', event => {
-    const itemsToAdd = [
-        "kubejs:molten_platinum_bucket"
-    ];
-    itemsToAdd.forEach(item => {
-        event.add(item);
     });
 });
