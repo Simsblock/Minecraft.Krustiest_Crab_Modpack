@@ -47,6 +47,8 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         "createbb:sudafed_box",
         "createbb:aluminosilicate_chunk",
         "createbb:aluminosilicate_bit",
+        "create_blaze_burner_fuels:coke_coal",
+        "create_blaze_burner_fuels:refined_coke_coal"
     ];
 
     itemsToRemove.forEach(item => {
@@ -64,29 +66,9 @@ RecipeViewerEvents.removeEntriesCompletely('fluid', event => {
         "createmetallurgy:molten_osmium",
         "createmetallurgy:molten_silver",
         "createmetallurgy:molten_tin",
-        "createbigcannons:molten_steel",
     ];
 	
 	fluidsToRemove.forEach(fluid => {
         event.remove(Fluid.of(fluid));
-    });
-});
-
-
-RecipeViewerEvents.addEntries('fluid', event => {
-    const fluidsToAdd = [
-        "kubejs:molten_platinum",
-    ];
-    fluidsToAdd.forEach(fluid => {
-        event.add(fluid);
-    });
-});
-
-RecipeViewerEvents.addEntries('item', event => {
-    const itemsToAdd = [
-        "kubejs:molten_platinum_bucket"
-    ];
-    itemsToAdd.forEach(item => {
-        event.add(item);
     });
 });
