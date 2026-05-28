@@ -1416,21 +1416,6 @@
       "fileSize": 8937
     },
     {
-      "path": "mods/maestro-neoforge-1.21.1-4.0.0.jar",
-      "hashes": {
-        "sha512": "675ffdf2356093ed6b14cfcd384c594165f5a7c8e7978ce28b56e31866dac097fbacba3e819ffef95c4918b685a6f67f1f8fdbe9452ba82fb74a7565d6ecf68c",
-        "sha1": "698e381aedb2f094166fc6a29747e635dd4d3917"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/jcZX6rvP/versions/zI6nkjfn/maestro-neoforge-1.21.1-4.0.0.jar"
-      ],
-      "fileSize": 132044
-    },
-    {
       "path": "mods/e4mc-neoforge-6.1.0.jar",
       "hashes": {
         "sha512": "6dfe220b7a07a4c7052c5c3b61f7d3bca76293ca896cc4115d775261ca64c9953efac9549b8697d89263046bf95d041791cd0cf2ceba6bb6114bea4c41429021",
@@ -2539,21 +2524,6 @@
         "https://cdn.modrinth.com/data/7pCNymxz/versions/1gXNmHrU/oneenoughitem-neoforge-1.21.1-1.0.8.jar"
       ],
       "fileSize": 260782
-    },
-    {
-      "path": "mods/createaddon-1.0.1.jar",
-      "hashes": {
-        "sha1": "6065567de4542fe40ba7cef494ef3a68d83f21cf",
-        "sha512": "1004438be33e05c7af1d2a261ea61dc7c7bfdcad4314c134cc9751d223244a6b79cd0b41ad0d50875393b91e0e9e45ad878a55a26d3b8cda8663eca687d18769"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/LDWQotJr/versions/QOEx0MS9/createaddon-1.0.1.jar"
-      ],
-      "fileSize": 354387
     },
     {
       "path": "mods/create-aeronautics-lift-patch-1.1.0.jar",
