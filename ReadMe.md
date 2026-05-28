@@ -10,15 +10,25 @@ Also see:
 You may call it a kitchen sink, I call it an open-ended experience guided by the incredible [Pastel](https://modrinth.com/mod/pastel-mod) mod, accompanied by casual Vanilla+, farming and the rapid [Industrialization](https://modrinth.com/mod/create-tfmg) of the cubic planet!
 
 ### What does this Pack add?
-This Modpack does not have a skilltree or and endgoal, instead the goal is to made for you to enjoy Minecrafts Core Features to the fullest, while adding technology and further progression through the [Create Mod](https://modrinth.com/mod/create) and [Pastel Magic Mod](https://modrinth.com/mod/pastel-mod).
-Late game high power production is possible through [The Factory Must Grow](https://modrinth.com/mod/create-tfmg).
+This Modpack is a highly Multiplayer oriented Modpack with many social mods.
 
+
+Unlike most typical technic Modpacks this one is not progressiontree orientied, instead the goal is for you to decide!
+
+
+Enjoy your time building Airships or giant factories, the world is your creative oyster!
+
+
+There are a multitude of different and silly create addons to further technical progression and allow for the funniest factories and contraptions possible, though the centerpiece is [The Factory Must Grow](https://modrinth.com/mod/create-tfmg).\
+For less technical folks the Modpack also extends the Minecraft Tool Progression utilizing [Pastel](https://modrinth.com/mod/pastel-mod) to allow mythical tools to exist.
+
+**ENJOY YOUR OPEN ENDED JOURNEY THROUGH A WHIMSICAL TECH MODPACK!**
+
+#### Enchantments
 The modpack also tries to rework the vanilla enchantment system by getting rid of most stat increase enchantments and replacing them with whimsy.
 Although necessary enchantments like Mending, Efficency, Unbreaking & Soul Bound are still readily available from Librarians, which were stripped of their book trades and left with some special trades specifically for these 4 enchantments.
 
-So go out their and enjoy the wonders of Colorful Magic & Industrialization with Airships and Oil, while experiencing the goofiest enchantments you have seen a good minute.
-
-> Warning this modpack uses Create Aeronautics and might therefore have some bugs.
+> Warning the use of Sable in this modpack might lead to performance drops & incompatibilities. Please notify me of any issues that may arise \<3
 
 > This was created for me and my frens to enjoy :3
 
@@ -26,11 +36,12 @@ So go out their and enjoy the wonders of Colorful Magic & Industrialization with
 Since quite a few of my friends play on weaker hardware I've tried to offer ways to simplify getting the modpack to work. \
 My solution is different versions per Release!
 - Client Version - The default version! It contains all Server-side, Cosmetic and Performance mods.
+- Potato Version - Client Version with all the aesthetic mods disabled!
 - Server Version - The purest version of the modpack! It contains neither cosmetic nor client optimizations, it's intended purpose is being run on the server.
 
 ## Recommendations
 ### Complementary Shader Patches
-[Euphoria Patches](https://modrinth.com/mod/euphoria-patches) & [Supplemental Patches](https://modrinth.com/mod/supplemental-patches) are included in the Client Version per default. \
+[Euphoria Patches](https://modrinth.com/mod/euphoria-patches) are included in the Client Version per default. [Supplemental Patches](https://modrinth.com/mod/supplemental-patches) are also included but disabled, due to compat issues with voxy. \
 They're specially designed to add to the Complementary Shaders ([Reimagined](https://modrinth.com/shader/complementary-reimagined)/[Unbound](https://modrinth.com/shader/complementary-unbound)). \
 If you decide to play without said shaders it might be advisable to turn of both or disable them.
 
@@ -51,7 +62,7 @@ The repository includes building instructions, if errors appear u might need to 
 > [Supplemental Patches](https://modrinth.com/mod/supplemental-patches) do not work with voxy, so it's best to disable them while playing with voxy!
 
 ## Credits
-- me :3
+- me & my frens who've helped :3
 - all the wonderful mod & datapack creators
 - [Vanilla Tweaks](https://vanillatweaks.net/)
 
