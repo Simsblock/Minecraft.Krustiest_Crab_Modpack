@@ -501,6 +501,21 @@
       "fileSize": 342949
     },
     {
+      "path": "mods/itempeek-1.0.1.jar",
+      "hashes": {
+        "sha512": "4b31ef5557598527a7737adeb29d86e9417b85a411d6215e5fa6fb68f1b375abb8cc30d40b44c83dded090171970bf9c7e7b5e4b7564ab67740dca9517dc3c4f",
+        "sha1": "6f4419ff61c2516309f2b9e447a06fe9dc76e7cf"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/CTkjyW90/versions/V3zewwMV/itempeek-1.0.1.jar"
+      ],
+      "fileSize": 18687
+    },
+    {
       "path": "mods/createbigcannons-5.11.3+mc.1.21.1.jar",
       "hashes": {
         "sha512": "f75a8bbdc9fc67c09eac6d78e8ad92583a342d54ab70e91923c52cd9b42987765e9a84e43e9c3e175593982aed80fe960a96561d9cd1ed62c4c966818346b466",
@@ -4294,21 +4309,6 @@
         "https://cdn.modrinth.com/data/XXZAWr7k/versions/x6jo5SY9/daynap-neoforge-1.0.0-1.21.1.jar"
       ],
       "fileSize": 16364
-    },
-    {
-      "path": "mods/createaddon-1.0.1.jar",
-      "hashes": {
-        "sha1": "6065567de4542fe40ba7cef494ef3a68d83f21cf",
-        "sha512": "1004438be33e05c7af1d2a261ea61dc7c7bfdcad4314c134cc9751d223244a6b79cd0b41ad0d50875393b91e0e9e45ad878a55a26d3b8cda8663eca687d18769"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/LDWQotJr/versions/QOEx0MS9/createaddon-1.0.1.jar"
-      ],
-      "fileSize": 354387
     },
     {
       "path": "mods/letmedespawn-1.21.x-neoforge-1.5.0.jar",
