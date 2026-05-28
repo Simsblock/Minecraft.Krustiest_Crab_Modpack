@@ -33,7 +33,9 @@ ServerEvents.recipes(event => {
                 "fluid": "createmetallurgy:molten_aluminum"
             },
             {
-                "item": "minecraft:quartz"
+                "type": "neoforge:single",
+                "amount": 100,
+                "fluid": "tfmg:molten_silicon"
             },
             {
                 "item": "minecraft:clay_ball"
@@ -325,7 +327,7 @@ ServerEvents.recipes(event => {
             {
                 "type": "neoforge:single",
                 "amount": 500,
-                "fluid": "createbb:phenylacetic_acid"
+                "fluid": "createbb:phenylacetone"
             },
             {
                 "type": "neoforge:single",
@@ -402,8 +404,8 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "neoforge:single",
-                "amount": 750,
-                "fluid": "createbb:oxygen"
+                "amount": 1000, 
+                "fluid": "tfmg:hot_air"
             }
         ],
         "machines": [

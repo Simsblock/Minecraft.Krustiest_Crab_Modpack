@@ -47,6 +47,8 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         "createbb:sudafed_box",
         "createbb:aluminosilicate_chunk",
         "createbb:aluminosilicate_bit",
+        "create_blaze_burner_fuels:coke_coal",
+        "create_blaze_burner_fuels:refined_coke_coal"
     ];
 
     itemsToRemove.forEach(item => {
