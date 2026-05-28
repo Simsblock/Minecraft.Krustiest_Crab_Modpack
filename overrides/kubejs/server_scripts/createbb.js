@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
             {
                 "type": "neoforge:single",
                 "amount": 100,
-                "fluid": "tfmg:molten_silicon"
+                "fluid": "tfmg:liquid_silicon"
             },
             {
                 "item": "minecraft:clay_ball"
