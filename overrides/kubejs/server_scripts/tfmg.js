@@ -1,5 +1,10 @@
 ServerEvents.recipes(event => {
-    event.custom({
+	event.remove({ output: Item.of('create_blaze_burner_fuels:coke_coal') });
+	event.remove({ output: Item.of('create_blaze_burner_fuels:refined_coke_coal') });
+	event.remove({ input: Item.of('create_blaze_burner_fuels:coke_coal') });
+	event.remove({ input: Item.of('create_blaze_burner_fuels:refined_coke_coal') });
+	
+	event.custom({
         "type": "create:crushing",
         "ingredients": [
             {

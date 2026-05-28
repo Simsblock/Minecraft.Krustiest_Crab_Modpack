@@ -1,9 +1,0 @@
-[
-  {
-    "matchBlock": [
-        "minecraft:sulfur",
-        "tfmg:sulfur"
-    ],
-    "resultBlock": "minecraft:sulfur"
-  }
-]
