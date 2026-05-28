@@ -28,3 +28,7 @@
 <recipetype:createmetallurgy:melting>.removeByName("createmetallurgy:melting/iron/raw_crushed");
 <recipetype:createmetallurgy:melting>.removeByName("createmetallurgy:melting/tungsten/raw_crushed");
 <recipetype:createmetallurgy:melting>.removeByName("createmetallurgy:melting/aluminum/raw_crushed");
+
+<recipetype:tfmg:vat_machine_recipe>.removeByName("tfmg:vat_machine_recipe/arc_furnace_steel");
+<recipetype:tfmg:industrial_blasting>.removeByName("tfmg:industrial_blasting/steel");
+<recipetype:tfmg:industrial_blasting>.removeByName("tfmg:industrial_blasting/steel_from_raw_iron");
