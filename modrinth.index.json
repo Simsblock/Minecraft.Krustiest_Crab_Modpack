@@ -141,21 +141,6 @@
       "fileSize": 544378
     },
     {
-      "path": "mods/enchantmentdisabler-3.4.3+1.21.1-neoforge.jar",
-      "hashes": {
-        "sha512": "ccfbd10c4d94b52960f732dcee5c2cb98988caaa17bffea4d8c7ce682205d38b97ce14c3632b0338c7307c529c02a5bdde27ccb8d58d8894cdec31cbfba56da3",
-        "sha1": "97291aa42908428801a4ad41069f2a3201c22af1"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Kd03i2oU/versions/ynDd2uXi/enchantmentdisabler-3.4.3%2B1.21.1-neoforge.jar"
-      ],
-      "fileSize": 135113
-    },
-    {
       "path": "mods/soulbound-neoforge-1.0.1+1.21.1.jar",
       "hashes": {
         "sha512": "329292855e3aa454b23612d16f3920b54d1ce9d8a922a0a97186ba5a0df7d8a834e2c84d90022b0e05b7ccd7ab6627eb158457abad71f4b95648b20a4d60e7bb",
@@ -4086,7 +4071,7 @@
       "fileSize": 536554
     },
     {
-      "path": "mods/raised-neoforge-1.21.1-5.1.2.jar",
+      "path": "mods/raised-neoforge-1.21.1-5.1.2.jar.disabled",
       "hashes": {
         "sha512": "947d94d5001bc0481dce91f3c011499487c3f6fc645cdc47cb7b461a5b35e94cfa8d1bd465080bc8d75a8db31587129f8a34e9ca82a9a24fe186c326e72ac8cf",
         "sha1": "43505377657a80ed2279571d473f5d9487ff50d7"
@@ -4984,21 +4969,6 @@
         "https://cdn.modrinth.com/data/WROfLLvn/versions/K3nIvcWT/trading_floor-3.0.16.jar"
       ],
       "fileSize": 214343
-    },
-    {
-      "path": "mods/cfwinfo-1.6.0.jar",
-      "hashes": {
-        "sha1": "fbb4322dfadc690939e5192ca3a9f6c140827cdb",
-        "sha512": "3243390af79e09bfd00707c0e6192db0918835cc3b142a424beacd532e1a6ee7f7a5a25e1d5f846aac2ee89902b3108bbc3f3f23ebd020787cd8e6cf4583a427"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/csA0cpEX/versions/YAxh0D9R/cfwinfo-1.6.0.jar"
-      ],
-      "fileSize": 29922
     },
     {
       "path": "mods/createbb-1.1.3.jar",
