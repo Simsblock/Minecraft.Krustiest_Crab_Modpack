@@ -141,21 +141,6 @@
       "fileSize": 1529391
     },
     {
-      "path": "mods/cfwinfo-1.6.0.jar",
-      "hashes": {
-        "sha512": "3243390af79e09bfd00707c0e6192db0918835cc3b142a424beacd532e1a6ee7f7a5a25e1d5f846aac2ee89902b3108bbc3f3f23ebd020787cd8e6cf4583a427",
-        "sha1": "fbb4322dfadc690939e5192ca3a9f6c140827cdb"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/csA0cpEX/versions/YAxh0D9R/cfwinfo-1.6.0.jar"
-      ],
-      "fileSize": 29922
-    },
-    {
       "path": "mods/noisium-neoforge-2.7.0+mc1.21-1.21.1.jar",
       "hashes": {
         "sha512": "ed05cdcf19f6fe6849204cddf0009b514b3686a0bac0da1d834e80d106b8e28ee2bf7d1e66a6c140d23b6c4cf5bb06558a795b70e31c179bcd1f74d955bd0068",
@@ -1714,21 +1699,6 @@
         "https://cdn.modrinth.com/data/1ury0R3s/versions/hRaJUtrx/textformattingeverywhere-neoforge-2.0.4.jar"
       ],
       "fileSize": 19693
-    },
-    {
-      "path": "mods/enchantmentdisabler-3.4.3+1.21.1-neoforge.jar",
-      "hashes": {
-        "sha1": "97291aa42908428801a4ad41069f2a3201c22af1",
-        "sha512": "ccfbd10c4d94b52960f732dcee5c2cb98988caaa17bffea4d8c7ce682205d38b97ce14c3632b0338c7307c529c02a5bdde27ccb8d58d8894cdec31cbfba56da3"
-      },
-      "env": {
-        "server": "required",
-        "client": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Kd03i2oU/versions/ynDd2uXi/enchantmentdisabler-3.4.3%2B1.21.1-neoforge.jar"
-      ],
-      "fileSize": 135113
     },
     {
       "path": "mods/lukis-crazy-chambers-1.0.3.jar",
@@ -3936,7 +3906,7 @@
       "fileSize": 37307
     },
     {
-      "path": "mods/effectual-neoforge-1.3.1-1.21.1.jar",
+      "path": "mods/effectual-neoforge-1.3.1-1.21.1.jar.disabled",
       "hashes": {
         "sha512": "49cc136188a055801bec1eee9ac40352ff27ebcdba7af515edcfe19cd57ec6c396459b80bde165d0bf0bbb89d7c7d1c95c290b7055af20ae871f24c360e19290",
         "sha1": "99c8fd98d8aa553a6803438b17022cae438fa1bd"
@@ -4596,7 +4566,7 @@
       "fileSize": 1936521
     },
     {
-      "path": "mods/raised-neoforge-1.21.1-5.1.2.jar",
+      "path": "mods/raised-neoforge-1.21.1-5.1.2.jar.disabled",
       "hashes": {
         "sha1": "43505377657a80ed2279571d473f5d9487ff50d7",
         "sha512": "947d94d5001bc0481dce91f3c011499487c3f6fc645cdc47cb7b461a5b35e94cfa8d1bd465080bc8d75a8db31587129f8a34e9ca82a9a24fe186c326e72ac8cf"
