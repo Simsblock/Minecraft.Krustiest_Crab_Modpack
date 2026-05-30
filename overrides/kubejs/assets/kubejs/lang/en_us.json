@@ -1,0 +1,13 @@
+{
+    "item.create_things_and_misc.slime_bucket": "Liquid Slime Bucket",
+    "fluid.create_things_and_misc.slime": "Liquid Slime",
+    "block.create_things_and_misc.slime": "Liquid Slime",
+    "fluid_type.create_things_and_misc.slime": "Liquid Slime",
+
+    "fluid.create_things_and_misc.diluted_bonemeal": "Diluted Bonemeal",
+    "block.create_things_and_misc.diluted_bonemeal": "Diluted Bonemeal",
+    "fluid_type.create_things_and_misc.diluted_bonemeal": "Diluted Bonemeal",
+
+    "item.createbb.crushed_copper": "Copper Dust",
+    "item.createbb.crushed_zinc": "Zinc Dust"
+}
