@@ -165,6 +165,7 @@
     "createaddon:beaker",
     "createaddon:mechanical_sieve",
     "createaddon:big_mechanical_press",
+    "supplementaries:speaker_block",
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

@@ -47,8 +47,9 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         "createbb:sudafed_box",
         "createbb:aluminosilicate_chunk",
         "createbb:aluminosilicate_bit",
-        "create_blaze_burner_fuels:coke_coal",
-        "create_blaze_burner_fuels:refined_coke_coal"
+        "create_blaze_burner_fuels:coal_coke",
+        "create_blaze_burner_fuels:refined_coal_coke",
+        "supplementaries:speaker_block",
     ];
 
     itemsToRemove.forEach(item => {
@@ -56,6 +57,16 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     });
 
 });
+
+RecipeViewerEvents.removeEntries('item', event => {
+    event.remove('createbb:match')
+    event.remove('createbb:sudafed')
+    event.remove('createbb:sudafed_box')
+    event.remove('createbb:aluminosilicate_chunk')
+    event.remove('createbb:aluminosilicate_bit')
+    event.remove('create_blaze_burner_fuels:coke_coal')
+    event.remove('create_blaze_burner_fuels:refined_coke_coal')
+})
 
 RecipeViewerEvents.removeEntriesCompletely('fluid', event => {
 	const fluidsToRemove = [
