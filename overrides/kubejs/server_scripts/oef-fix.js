@@ -14,6 +14,48 @@ ServerEvents.recipes(event => {
         event.remove({ input: Fluid.of(fluid) });
     });
 
+    // Create Metllurgy - Steel ALL
+    event.remove({ id: 'createmetallurgy:bulk_melting/steel/block' })
+    event.remove({ id: 'createmetallurgy:entity_melting/wither_skeleton' })
+    event.remove({ id: 'createmetallurgy:melting/steel/nugget' })
+    event.remove({ id: 'createmetallurgy:melting/steel/plate' })
+    event.remove({ id: 'createmetallurgy:melting/steel/rod' })
+
+    // Create Metallurgy - Bulk Melting (raw blocks)
+    event.remove({ id: 'createmetallurgy:bulk_melting/lead/raw_block' })
+    event.remove({ id: 'createmetallurgy:bulk_melting/gold/raw_block' })
+    event.remove({ id: 'createmetallurgy:bulk_melting/lithium/raw_block' })
+    event.remove({ id: 'createmetallurgy:bulk_melting/nickel/raw_block' })
+    event.remove({ id: 'createmetallurgy:bulk_melting/copper/raw_block' })
+    event.remove({ id: 'createmetallurgy:bulk_melting/zinc/raw_block' })
+    event.remove({ id: 'createmetallurgy:bulk_melting/iron/raw_block' })
+    event.remove({ id: 'createmetallurgy:bulk_melting/tungsten/raw_block' })
+
+    // Create Metallurgy - Melting (raw materials)
+    event.remove({ id: 'createmetallurgy:melting/lead/raw_material' })
+    event.remove({ id: 'createmetallurgy:melting/gold/raw_material' })
+    event.remove({ id: 'createmetallurgy:melting/lithium/raw_material' })
+    event.remove({ id: 'createmetallurgy:melting/nickel/raw_material' })
+    event.remove({ id: 'createmetallurgy:melting/copper/raw_material' })
+    event.remove({ id: 'createmetallurgy:melting/zinc/raw_material' })
+    event.remove({ id: 'createmetallurgy:melting/iron/raw_material' })
+    event.remove({ id: 'createmetallurgy:melting/tungsten/raw_material' })
+
+    // Create Metallurgy - Melting (raw crushed)
+    event.remove({ id: 'createmetallurgy:melting/lead/raw_crushed' })
+    event.remove({ id: 'createmetallurgy:melting/gold/raw_crushed' })
+    event.remove({ id: 'createmetallurgy:melting/nickel/raw_crushed' })
+    event.remove({ id: 'createmetallurgy:melting/copper/raw_crushed' })
+    event.remove({ id: 'createmetallurgy:melting/zinc/raw_crushed' })
+    event.remove({ id: 'createmetallurgy:melting/iron/raw_crushed' })
+    event.remove({ id: 'createmetallurgy:melting/tungsten/raw_crushed' })
+    event.remove({ id: 'createmetallurgy:melting/aluminum/raw_crushed' })
+
+    // TFMG - Steel
+    event.remove({ id: 'tfmg:vat_machine_recipe/arc_furnace_steel' })
+    event.remove({ id: 'tfmg:industrial_blasting/steel' })
+    event.remove({ id: 'tfmg:industrial_blasting/steel_from_raw_iron' })
+
     //steel
     
     event.custom({

@@ -327,7 +327,7 @@ ServerEvents.recipes(event => {
             {
                 "type": "neoforge:single",
                 "amount": 500,
-                "fluid": "createbb:phenylacetone"
+                "fluid": "createbb:phenylacetic_acid"
             },
             {
                 "type": "neoforge:single",

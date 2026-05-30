@@ -1,0 +1,26 @@
+#Message shown to the kissed player (use %s for player name)
+kissMessage = "%s kissed you!"
+#Message shown to the kissing player (use %s for player name)
+kissPromptMessage = "You kissed %s!"
+#Error message when trying to kiss yourself
+selfKissErrorMessage = "You can't kiss yourself!"
+#Error message when command is on cooldown (use %d for seconds)
+cooldownErrorMessage = "Wait %d seconds before kissing again!"
+#Cooldown between kisses in seconds
+# Default: 10
+# Range: 1 ~ 3600
+commandCooldown = 10
+#Maximum number of heart particles when sneaking
+# Default: 6
+# Range: 1 ~ 20
+maxSneakParticles = 6
+#Radius for detecting nearby players when sneaking
+# Default: 16.0
+# Range: 1.0 ~ 128.0
+sneakTriggerRadius = 1.0
+#Maximum view angle for detecting players (in degrees)
+# Default: 90.0
+# Range: 1.0 ~ 360.0
+maxViewAngleDegree = 90.0
+#Enable the /kiss command
+enableKissCommand = true
