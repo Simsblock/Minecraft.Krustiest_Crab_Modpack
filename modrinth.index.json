@@ -351,21 +351,6 @@
       "fileSize": 752334
     },
     {
-      "path": "mods/sound_physics_perfected-1.17.1+1.21.1-neoforge.jar",
-      "hashes": {
-        "sha512": "b1280e38baf6a33022a3cb83d3b6b3e39434a0f454bd32798b2d722eb6eaf452f40a94d056207ac54fabf2dba95a40f24b6a85ad2e838993f73482706e99e6fa",
-        "sha1": "f3d09b5a8ea82391af7e9d72e86524bac71c9a09"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/KS6Hbu9Z/versions/m3jTB12k/sound_physics_perfected-1.17.1%2B1.21.1-neoforge.jar"
-      ],
-      "fileSize": 462583
-    },
-    {
       "path": "mods/YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",
       "hashes": {
         "sha512": "eca4233e874a55886c63d2111b8685d479771d3627bad2922582e65b78c51ba74733dc4624aabf91f2a2178a940a72d9209ae33eef74e34f84f07d62256709d9",
@@ -2614,6 +2599,21 @@
         "https://cdn.modrinth.com/data/5A34Stj8/versions/BqhDf7W8/ponderjs-neoforge-1.21.1-2.4.0.jar"
       ],
       "fileSize": 1571893
+    },
+    {
+      "path": "mods/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
+      "hashes": {
+        "sha512": "ff7e9f0b968eeb2ba0e833328a122813cad0434cfe2d5c3d527c1c0d564504f13a737fc05f22d3fea562a2f86568d31b95212bf5347dd10da36cd49ad56143a6",
+        "sha1": "a5ac35ccb902231047709530a5708fb71dc3e3b5"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/qyVF9oeo/versions/Dd2tmpsk/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar"
+      ],
+      "fileSize": 202454
     },
     {
       "path": "mods/DustyDecorations_1.21.1Neoforge_V1.13.jar",
